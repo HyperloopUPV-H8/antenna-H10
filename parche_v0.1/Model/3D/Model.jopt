@@ -1,0 +1,156 @@
+{
+    "Optimizer": {
+        "Goals": null,
+        "Parameters": {
+            "Parameter List": [
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "CLight*1E-06",
+                    "Max Value": "329.772",
+                    "Min Value": "269.813",
+                    "Parameter Name": "c0"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "8.25781271124042",
+                    "Max Value": "26.302",
+                    "Min Value": "21.519",
+                    "Parameter Name": "feed_line_length"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.907166449132801",
+                    "Max Value": "2.7796",
+                    "Min Value": "2.2742",
+                    "Parameter Name": "feed_line_width"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "5.8",
+                    "Max Value": "2.695",
+                    "Min Value": "2.205",
+                    "Parameter Name": "frequency_centre"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "8.44399538686656",
+                    "Max Value": "26.706",
+                    "Min Value": "21.85",
+                    "Parameter Name": "matching_line_length"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.302940514126496",
+                    "Max Value": "1.0893",
+                    "Min Value": "0.8912",
+                    "Parameter Name": "matching_line_width"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "13.2055814780862",
+                    "Max Value": "45.128",
+                    "Min Value": "36.923",
+                    "Parameter Name": "patch_length"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "17.4638766924878",
+                    "Max Value": "54.951",
+                    "Min Value": "44.959",
+                    "Parameter Name": "patch_width"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "3.38",
+                    "Max Value": "2.2",
+                    "Min Value": "1.8",
+                    "Parameter Name": "relative_permittivity"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "1.524",
+                    "Max Value": "2.86",
+                    "Min Value": "2.34",
+                    "Parameter Name": "substrate_height"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0",
+                    "Max Value": "0.1",
+                    "Min Value": "-0.1",
+                    "Parameter Name": "tan_delta"
+                }
+            ],
+            "Range Percentage": "10",
+            "Start From Current": "True"
+        },
+        "Settings": {
+            "CMAES Settings": {
+                "Maximal Iterations": 3000,
+                "Seed": 1,
+                "Sigma": "0.2",
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "True"
+            },
+            "Classic Powell Settings": {
+                "Accuracy": "0.01"
+            },
+            "General Settings": {
+                "Algorithm Type": "Trust Region Framework",
+                "Data Storage Type": "None",
+                "Goal Summary Type": "Sum of all goals",
+                "Move Mesh": "False",
+                "Start Active Solver": "True",
+                "Use Data Of Prev Calculations": "False"
+            },
+            "Genetic Algorithm Settings": {
+                "Generation Size": 32,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 30,
+                "Mutation Rate": 60,
+                "Seed": 1
+            },
+            "Nelder Mead Simplex Settings": {
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Noisy Latin Hypercube Distribution",
+                "Maximal Iterations": 250,
+                "Min Simplex Size": "1e-6",
+                "Seed": 1,
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "False"
+            },
+            "Particle Swarm Settings": {
+                "Generation Size": 30,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 15,
+                "Seed": 1
+            },
+            "Quasi Newton Settings": {
+                "Refinements": "1"
+            },
+            "Trust Region Settings": {
+                "Domain Accuracy": "0.01",
+                "Finite Differences Delta": "Automatic",
+                "Maximal Iterations": 500,
+                "Sigma": "0.2",
+                "Use Maximal Iterations": "False"
+            }
+        },
+        "Version": 1
+    }
+}
