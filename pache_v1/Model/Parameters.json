@@ -3,7 +3,7 @@
         {
             "expr": "c0/frequency_centre",
             "name": "wavelength_centre",
-            "value": "51.6883548275862"
+            "value": "51.9121139393939"
         },
         {
             "descr": "Loss tangent of the substrate medium",
@@ -25,26 +25,26 @@
         },
         {
             "descr": "Patch width",
-            "expr": "17.602000840474",
+            "expr": "18.079573834967",
             "name": "patch_width",
-            "value": "17.602000840474"
+            "value": "18.079573834967"
         },
         {
             "descr": "Patch length",
-            "expr": "12.887584583342",
+            "expr": "12.940426106949",
             "name": "patch_length",
-            "value": "12.887584583342"
+            "value": "12.940426106949"
         },
         {
             "expr": "0.0001*wavelength_centre",
             "name": "metal_thickness",
-            "value": "5.16883548275862e-03"
+            "value": "5.19121139393939e-03"
         },
         {
             "descr": "Matching line width",
-            "expr": "0.302940514126496",
+            "expr": "0.3039124675617",
             "name": "matching_line_width",
-            "value": "0.302940514126496"
+            "value": "0.3039124675617"
         },
         {
             "descr": "Matching line length",
@@ -55,29 +55,29 @@
         {
             "expr": "patch_width*2",
             "name": "groundplane_width",
-            "value": "35.204001680948"
+            "value": "36.159147669934"
         },
         {
             "expr": "patch_length*3",
             "name": "groundplane_length",
-            "value": "38.662753750026"
+            "value": "38.821278320847"
         },
         {
             "expr": "patch_length/2 + feed_line_length + matching_line_length - groundplane_length/2",
             "name": "groundplane_feed_extension",
-            "value": "3.81422351476498"
+            "value": "3.76138199115798"
         },
         {
             "descr": "Centre frequency",
-            "expr": "5.8",
+            "expr": "5.775",
             "name": "frequency_centre",
-            "value": "5.8"
+            "value": "5.775"
         },
         {
             "descr": "Feed line width",
-            "expr": "0.907166449132801",
+            "expr": "0.82255200568345",
             "name": "feed_line_width",
-            "value": "0.907166449132801"
+            "value": "0.82255200568345"
         },
         {
             "descr": "Feed line length",

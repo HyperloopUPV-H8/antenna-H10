@@ -22,17 +22,17 @@
       {
          "name": "patch_width",
          "type": "float",
-         "value": 17.602000840474
+         "value": 18.079573834967
       },
       {
          "name": "patch_length",
          "type": "float",
-         "value": 12.887584583342
+         "value": 12.940426106949
       },
       {
          "name": "matching_line_width",
          "type": "float",
-         "value": 0.302940514126496
+         "value": 0.3039124675617
       },
       {
          "name": "matching_line_length",
@@ -42,12 +42,12 @@
       {
          "name": "frequency_centre",
          "type": "float",
-         "value": 5.8
+         "value": 5.775
       },
       {
          "name": "feed_line_width",
          "type": "float",
-         "value": 0.907166449132801
+         "value": 0.82255200568345
       },
       {
          "name": "feed_line_length",

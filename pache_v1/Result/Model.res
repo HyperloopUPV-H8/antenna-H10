@@ -1,5 +1,5 @@
 MWS Result File Version 20150206
-size=i:104
+size=i:134
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -7,39 +7,15 @@ visibility=s:hidden
 creation=s:internal
 lifetime=s:rebuild
 result=s:0
-files=s:Model.hmi
+files=s:ml_info.dat
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
 visibility=s:hidden
 creation=s:internal
-lifetime=s:survivemeshadapt
+lifetime=s:solverstart
 result=s:0
-files=s:3d.slm
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:survivemeshadapt
-result=s:0
-files=s:model.gex
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:survivemeshadapt
-result=s:0
-files=s:PP.fmm
-
-type=s:DATA_FOLDER
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-files=s:raw_data
+files=s:MeshErrorsGraphicalFeedback.axg
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -47,55 +23,7 @@ visibility=s:hidden
 creation=s:internal
 lifetime=s:solverstart
 result=s:1
-files=s:FieldSetFile.fsf
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:solverstart
-result=s:1
-files=s:fd_rfm.fdp
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:solverstart
-result=s:1
-files=s:fd.fdp
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:solverstart
-result=s:1
-files=s:fd.spd
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:solverstart
-result=s:1
-files=s:farfield (#0004)_1(1).feh
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:solverstart
-result=s:1
-files=s:farfield (#0003)_1(1).feh
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:solverstart
-result=s:1
-files=s:farfield (#0000)_1(1).feh
+files=s:Model.mlg
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -103,47 +31,7 @@ visibility=s:hidden
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
-files=s:p1(1)1(1)c.sig
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-files=s:a1(1)1(1)c.sig
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-files=s:Port1.tra
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:survivemeshadapt
-result=s:1
-files=s:AdaptErrEst.map
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-files=s:SolCoef_1(1).scl
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-files=s:Port1_hInfo1.pmm
+files=s:Port1_Info1.pmm
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -159,23 +47,31 @@ visibility=s:hidden
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
-files=s:Port1_Info1.pmm
+files=s:Port1_hInfo1.pmm
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
 visibility=s:hidden
 creation=s:internal
-lifetime=s:solverstart
+lifetime=s:rebuild
 result=s:1
-files=s:Model.mlg
+files=s:SolCoef_1(1).scl
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
 visibility=s:hidden
 creation=s:internal
-lifetime=s:solverstart
-result=s:0
-files=s:MeshErrorsGraphicalFeedback.axg
+lifetime=s:survivemeshadapt
+result=s:1
+files=s:AdaptErrEst.map
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:Port1.tra
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -190,8 +86,80 @@ problemclass=s::8:1000
 visibility=s:hidden
 creation=s:internal
 lifetime=s:rebuild
-result=s:0
-files=s:ml_info.dat
+result=s:1
+files=s:a1(1)1(1)c.sig
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:p1(1)1(1)c.sig
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:solverstart
+result=s:1
+files=s:farfield (#0000)_1(1).feh
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:solverstart
+result=s:1
+files=s:farfield (#0003)_1(1).feh
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:solverstart
+result=s:1
+files=s:farfield (#0004)_1(1).feh
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:solverstart
+result=s:1
+files=s:fd.spd
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:solverstart
+result=s:1
+files=s:fd.fdp
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:solverstart
+result=s:1
+files=s:fd_rfm.fdp
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:solverstart
+result=s:1
+files=s:FieldSetFile.fsf
+
+type=s:DATA_FOLDER
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:raw_data
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -229,6 +197,28 @@ result=s:1
 parametric=s:P
 treepath=s:1D Results\Convergence\S-Parameters\All S-Parameters
 files=s:All S-ParametersErr.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Convergence\S-Parameters\Reflection S-Parameters
+files=s:Reflection S-ParametersErr.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Convergence\S-Parameters\Transmission S-Parameters
+files=s:Transmission S-ParametersErr.sig
 
 type=s:XYSIGNAL
 subtype=s:user
@@ -326,7 +316,7 @@ creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
 parametric=s:P
-treepath=s:1D Results\Adaptive Meshing\f=5.8\S-Parameters\Delta\All S-Parameters
+treepath=s:1D Results\Adaptive Meshing\f=5.775\S-Parameters\Delta\All S-Parameters
 files=s:amr(#0000)_deltas All S-Parametersvsp.sig
 
 type=s:XYSIGNAL
@@ -337,7 +327,7 @@ creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
 parametric=s:P
-treepath=s:1D Results\Adaptive Meshing\f=5.8\Solvertime
+treepath=s:1D Results\Adaptive Meshing\f=5.775\Solvertime
 files=s:amr(#0000)_solvertimevsp.sig
 
 type=s:XYSIGNAL
@@ -348,7 +338,7 @@ creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
 parametric=s:P
-treepath=s:1D Results\Adaptive Meshing\f=5.8\Meshcells
+treepath=s:1D Results\Adaptive Meshing\f=5.775\Meshcells
 files=s:amr(#0000)_meshcellsvsp.sig
 
 type=s:XYSIGNAL
@@ -359,7 +349,7 @@ creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
 parametric=s:P
-treepath=s:1D Results\Adaptive Meshing\f=5.8\S-Parameters\S1,1
+treepath=s:1D Results\Adaptive Meshing\f=5.775\S-Parameters\S1,1
 files=s:amr(#0000)_svsp1(1)_1(1).sig
 
 type=s:XYSIGNAL
@@ -523,6 +513,16 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
+treepath=s:1D Results\Optimizer\Result Curves\Reference Impedance\ZRef 1(1)\Initial
+files=s:Initial1D Results\Reference Impedance\ZRef 1(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
 treepath=s:1D Results\Optimizer\Result Curves\S-Parameters\S1,1\Initial
 files=s:Initial1D Results\S-Parameters\S1,1.sig
 
@@ -533,7 +533,7 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
-treepath=s:1D Results\Optimizer\Parameters\patch_length
+treepath=s:1D Results\Optimizer\Parameters\feed_line_width
 files=s:para0.sig
 
 type=s:XYSIGNAL
@@ -543,7 +543,7 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
-treepath=s:1D Results\Optimizer\Parameters\patch_width
+treepath=s:1D Results\Optimizer\Parameters\matching_line_width
 files=s:para1.sig
 
 type=s:XYSIGNAL
@@ -553,7 +553,27 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
-treepath=s:1D Results\Optimizer\Parameters\Scaled\patch_length
+treepath=s:1D Results\Optimizer\Parameters\patch_length
+files=s:para2.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Parameters\patch_width
+files=s:para3.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Parameters\Scaled\feed_line_width
 files=s:para_uc0.sig
 
 type=s:XYSIGNAL
@@ -563,7 +583,7 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
-treepath=s:1D Results\Optimizer\Parameters\Scaled\patch_width
+treepath=s:1D Results\Optimizer\Parameters\Scaled\matching_line_width
 files=s:para_uc1.sig
 
 type=s:XYSIGNAL
@@ -573,8 +593,88 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
-treepath=s:1D Results\Optimizer\Goals\0_S-Parameters_S1,1
+treepath=s:1D Results\Optimizer\Parameters\Scaled\patch_length
+files=s:para_uc2.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Parameters\Scaled\patch_width
+files=s:para_uc3.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Goals\Sum of all goals
 files=s:goal0.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Goals\0_S-Parameters_S1,1
+files=s:goal1.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Goals\1_Reference Impedance_ZRef 1(1)
+files=s:goal2.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Goals\2_S-Parameters_S1,1
+files=s:goal3.sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Result Curves\Reference Impedance\ZRef 1(1)\Best so far
+files=s:Best so far1D Results\Reference Impedance\ZRef 1(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Result Curves\S-Parameters\S1,1\Best so far
+files=s:Best so far1D Results\S-Parameters\S1,1.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goals\Sum of all goals
+files=s:Algorithm Statistics\Goals\Sum of all goals
 
 type=s:XYSIGNAL
 subtype=s:user
@@ -585,6 +685,146 @@ lifetime=s:surviveparchange
 result=s:1
 treepath=s:1D Results\Optimizer\Algorithm Statistics\Goals\0_S-Parameters_S1,1
 files=s:Algorithm Statistics\Goals\0_S-Parameters_S1,1
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goals\1_Reference Impedance_ZRef 1(1)
+files=s:Algorithm Statistics\Goals\1_Reference Impedance_ZRef 1(1)
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goals\2_S-Parameters_S1,1
+files=s:Algorithm Statistics\Goals\2_S-Parameters_S1,1
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Parameters\feed_line_width
+files=s:Algorithm Statistics\Parameters\feed_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Parameters\Scaled\feed_line_width
+files=s:Algorithm Statistics\Parameters\Scaled\feed_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\Sum of all goals--feed_line_width
+files=s:Algorithm Statistics\Goal Sensitivities\Sum of all goals--feed_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\0_S-Parameters_S1,1--feed_line_width
+files=s:Algorithm Statistics\Goal Sensitivities\0_S-Parameters_S1,1--feed_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\1_Reference Impedance_ZRef 1(1)--feed_line_width
+files=s:Algorithm Statistics\Goal Sensitivities\1_Reference Impedance_ZRef 1(1)--feed_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\2_S-Parameters_S1,1--feed_line_width
+files=s:Algorithm Statistics\Goal Sensitivities\2_S-Parameters_S1,1--feed_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Parameters\matching_line_width
+files=s:Algorithm Statistics\Parameters\matching_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Parameters\Scaled\matching_line_width
+files=s:Algorithm Statistics\Parameters\Scaled\matching_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\Sum of all goals--matching_line_width
+files=s:Algorithm Statistics\Goal Sensitivities\Sum of all goals--matching_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\0_S-Parameters_S1,1--matching_line_width
+files=s:Algorithm Statistics\Goal Sensitivities\0_S-Parameters_S1,1--matching_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\1_Reference Impedance_ZRef 1(1)--matching_line_width
+files=s:Algorithm Statistics\Goal Sensitivities\1_Reference Impedance_ZRef 1(1)--matching_line_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\2_S-Parameters_S1,1--matching_line_width
+files=s:Algorithm Statistics\Goal Sensitivities\2_S-Parameters_S1,1--matching_line_width
 
 type=s:XYSIGNAL
 subtype=s:user
@@ -613,8 +853,38 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\Sum of all goals--patch_length
+files=s:Algorithm Statistics\Goal Sensitivities\Sum of all goals--patch_length
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
 treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\0_S-Parameters_S1,1--patch_length
 files=s:Algorithm Statistics\Goal Sensitivities\0_S-Parameters_S1,1--patch_length
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\1_Reference Impedance_ZRef 1(1)--patch_length
+files=s:Algorithm Statistics\Goal Sensitivities\1_Reference Impedance_ZRef 1(1)--patch_length
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\2_S-Parameters_S1,1--patch_length
+files=s:Algorithm Statistics\Goal Sensitivities\2_S-Parameters_S1,1--patch_length
 
 type=s:XYSIGNAL
 subtype=s:user
@@ -643,18 +913,38 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
-treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\0_S-Parameters_S1,1--patch_width
-files=s:Algorithm Statistics\Goal Sensitivities\0_S-Parameters_S1,1--patch_width
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\Sum of all goals--patch_width
+files=s:Algorithm Statistics\Goal Sensitivities\Sum of all goals--patch_width
 
 type=s:XYSIGNAL
-subtype=s:complex
+subtype=s:user
 problemclass=s::8:1000
 visibility=s:visible
 creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
-treepath=s:1D Results\Optimizer\Result Curves\S-Parameters\S1,1\Best so far
-files=s:Best so far1D Results\S-Parameters\S1,1.sig
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\0_S-Parameters_S1,1--patch_width
+files=s:Algorithm Statistics\Goal Sensitivities\0_S-Parameters_S1,1--patch_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\1_Reference Impedance_ZRef 1(1)--patch_width
+files=s:Algorithm Statistics\Goal Sensitivities\1_Reference Impedance_ZRef 1(1)--patch_width
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:1D Results\Optimizer\Algorithm Statistics\Goal Sensitivities\2_S-Parameters_S1,1--patch_width
+files=s:Algorithm Statistics\Goal Sensitivities\2_S-Parameters_S1,1--patch_width
 
 type=s:XYSIGNAL
 subtype=s:user
@@ -704,6 +994,26 @@ lifetime=s:rebuild
 result=s:1
 treepath=s:1D Results\Convergence\S-Parameters\All S-Parameters
 files=s:All S-ParametersErr.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Convergence\S-Parameters\Reflection S-Parameters
+files=s:Reflection S-ParametersErr.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Convergence\S-Parameters\Transmission S-Parameters
+files=s:Transmission S-ParametersErr.sig
 
 type=s:MODEMAP
 problemclass=s::8:1000
@@ -812,7 +1122,7 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:survivemeshadapt
 result=s:1
-treepath=s:1D Results\Adaptive Meshing\f=5.8\S-Parameters\Delta\All S-Parameters
+treepath=s:1D Results\Adaptive Meshing\f=5.775\S-Parameters\Delta\All S-Parameters
 files=s:amr(#0000)_deltas All S-Parametersvsp.sig
 
 type=s:XYSIGNAL
@@ -822,7 +1132,7 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:survivemeshadapt
 result=s:1
-treepath=s:1D Results\Adaptive Meshing\f=5.8\Solvertime
+treepath=s:1D Results\Adaptive Meshing\f=5.775\Solvertime
 files=s:amr(#0000)_solvertimevsp.sig
 
 type=s:XYSIGNAL
@@ -832,7 +1142,7 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:survivemeshadapt
 result=s:1
-treepath=s:1D Results\Adaptive Meshing\f=5.8\Meshcells
+treepath=s:1D Results\Adaptive Meshing\f=5.775\Meshcells
 files=s:amr(#0000)_meshcellsvsp.sig
 
 type=s:XYSIGNAL
@@ -842,7 +1152,7 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:survivemeshadapt
 result=s:1
-treepath=s:1D Results\Adaptive Meshing\f=5.8\S-Parameters\S1,1
+treepath=s:1D Results\Adaptive Meshing\f=5.775\S-Parameters\S1,1
 files=s:amr(#0000)_svsp1(1)_1(1).sig
 
 type=s:XYSIGNAL
@@ -872,18 +1182,8 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
-treepath=s:1D Results\Power\Excitation [1]\Power Accepted
-files=s:AcceptedPower_1.sig
-
-type=s:XYSIGNAL
-subtype=s:complex
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:1D Results\Power\Excitation [1]\Power Accepted per Port\Port 1
-files=s:AcceptedPower_1(1).sig
+treepath=s:1D Results\Power\Excitation [1]\Power Stimulated
+files=s:StimulatedPower_1.sig
 
 type=s:XYSIGNAL
 subtype=s:complex
@@ -902,8 +1202,18 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
-treepath=s:1D Results\Power\Excitation [1]\Power Stimulated
-files=s:StimulatedPower_1.sig
+treepath=s:1D Results\Power\Excitation [1]\Power Accepted per Port\Port 1
+files=s:AcceptedPower_1(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [1]\Power Accepted
+files=s:AcceptedPower_1.sig
 
 type=s:FARFIELD
 problemclass=s::8:1000

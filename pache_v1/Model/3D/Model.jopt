@@ -7,8 +7,8 @@
                 "Goal Norm": "MaxDiff",
                 "Goal active": "True",
                 "Operator": "<",
-                "Range From": "5.8",
-                "Range To": "5.8",
+                "Range From": "5.775",
+                "Range To": "5.775",
                 "Range Type": "Single",
                 "Result List": [
                     {
@@ -18,6 +18,48 @@
                     }
                 ],
                 "Target": "-50",
+                "Target Max": "0.0",
+                "Use Slope": "False",
+                "Weight": "1.0"
+            },
+            {
+                "Complex Type": "MagLin",
+                "Goal Name": "Result 1DC",
+                "Goal Norm": "MaxDiff",
+                "Goal active": "True",
+                "Operator": "=",
+                "Range From": "5.735",
+                "Range To": "5.815",
+                "Range Type": "Range",
+                "Result List": [
+                    {
+                        "Data Source": "Solver",
+                        "Treepath": "1D Results\\Reference Impedance\\ZRef 1(1)",
+                        "Type": "1D Complex"
+                    }
+                ],
+                "Target": "100",
+                "Target Max": "0.0",
+                "Use Slope": "False",
+                "Weight": "1.0"
+            },
+            {
+                "Complex Type": "MagdB",
+                "Goal Name": "Result 1DC",
+                "Goal Norm": "MaxDiff",
+                "Goal active": "True",
+                "Operator": "<",
+                "Range From": "5.730",
+                "Range To": "5.820",
+                "Range Type": "Range",
+                "Result List": [
+                    {
+                        "Data Source": "Solver",
+                        "Treepath": "1D Results\\S-Parameters\\S1,1",
+                        "Type": "1D Complex"
+                    }
+                ],
+                "Target": "-20",
                 "Target Max": "0.0",
                 "Use Slope": "False",
                 "Weight": "1.0"
@@ -42,17 +84,17 @@
                     "Parameter Name": "feed_line_length"
                 },
                 {
-                    "Active": "False",
+                    "Active": "True",
                     "Anchors": "5",
-                    "Initial Value": "0.907166449132801",
-                    "Max Value": "2.7796",
-                    "Min Value": "2.2742",
+                    "Initial Value": "0.82494032513533",
+                    "Max Value": "0.9979",
+                    "Min Value": "0.8164",
                     "Parameter Name": "feed_line_width"
                 },
                 {
                     "Active": "False",
                     "Anchors": "5",
-                    "Initial Value": "5.8",
+                    "Initial Value": "5.775",
                     "Max Value": "2.695",
                     "Min Value": "2.205",
                     "Parameter Name": "frequency_centre"
@@ -66,27 +108,27 @@
                     "Parameter Name": "matching_line_length"
                 },
                 {
-                    "Active": "False",
+                    "Active": "True",
                     "Anchors": "5",
-                    "Initial Value": "0.302940514126496",
-                    "Max Value": "1.0893",
-                    "Min Value": "0.8912",
+                    "Initial Value": "0.30151691443405",
+                    "Max Value": "0.33323",
+                    "Min Value": "0.27265",
                     "Parameter Name": "matching_line_width"
                 },
                 {
                     "Active": "True",
                     "Anchors": "5",
-                    "Initial Value": "13.2055814780862",
-                    "Max Value": "16.507",
-                    "Min Value": "9.904",
+                    "Initial Value": "12.93659109258",
+                    "Max Value": "14.176",
+                    "Min Value": "11.599",
                     "Parameter Name": "patch_length"
                 },
                 {
                     "Active": "True",
                     "Anchors": "5",
-                    "Initial Value": "17.4638766924878",
-                    "Max Value": "21.83",
-                    "Min Value": "13.098",
+                    "Initial Value": "18.005633335943",
+                    "Max Value": "19.362",
+                    "Min Value": "15.842",
                     "Parameter Name": "patch_width"
                 },
                 {
@@ -114,7 +156,7 @@
                     "Parameter Name": "tan_delta"
                 }
             ],
-            "Range Percentage": "25",
+            "Range Percentage": "10",
             "Start From Current": "True"
         },
         "Settings": {
@@ -134,7 +176,7 @@
                 "Goal Summary Type": "Sum of all goals",
                 "Move Mesh": "False",
                 "Start Active Solver": "True",
-                "Use Data Of Prev Calculations": "False"
+                "Use Data Of Prev Calculations": "True"
             },
             "Genetic Algorithm Settings": {
                 "Generation Size": 32,

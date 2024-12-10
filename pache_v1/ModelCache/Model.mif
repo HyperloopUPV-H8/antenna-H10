@@ -4,8 +4,9 @@
 [PCB_IMPORT: False]
 [PCB_IMPORT_NEW: False]
 [DISABLE_FAST_LOAD: False]
-[BBOX:-30.524089547370551 30.524089547370551 -32.253465581909552 36.067689096674556 -14.451257542379309 26.63808870689655]
-[BBOX_STRUCTURE:-17.602000840473998 17.602000840473998 -19.331376875013 23.145600389778004 -1.5291688354827586 13.715999999999999]
+[WCS: 0 0 0 0 0 1 1 0 0]
+[BBOX:-31.057602319815487 31.057602319815487 -32.388667645271987 36.150049636429991 -14.507219696242425 26.694028484848484]
+[BBOX_STRUCTURE:-18.079573834967 18.079573834967 -19.4106391604235 23.172021151581504 -1.5291912113939394 13.715999999999999]
 [UNITS]
      .SetUnit "Length", "mm"
      .SetUnit "Temperature", "K"
@@ -20,7 +21,7 @@
      .SetResultUnit "frequency", "frequency", "" 
 [ENDUNITS]
 [FREQUENCYRANGE]
-Solver.FrequencyRange "0.7*5.7999999999999998", "1.3*5.7999999999999998" 
+Solver.FrequencyRange "0.7*5.7750000000000004", "1.3*5.7750000000000004" 
 [ENDFREQUENCYRANGE]
 [FREQUENCYRANGE_PARAMETRIC]
 Solver.FrequencyRange "0.7*frequency_centre", "1.3*frequency_centre" 
@@ -433,23 +434,23 @@ Solver.FrequencyRange "0.7*frequency_centre", "1.3*frequency_centre"
      .PortOnBound "False"
      .ClipPickedPortToBound "False"
      .Xrange "0", "15.239999999999998"
-     .Yrange "0", "31.387166449132799"
+     .Yrange "0", "31.302552005683399"
      .Zrange "0", "0"
      .XrangeAdd "0.0", "0.0"
      .YrangeAdd "0.0", "0.0"
      .ZrangeAdd "0.0", "0.0"
      .SingleEnded "False"
      .WaveguideMonitor "False"
-     .ReferenceWCS "7.62", "15.6935832246", "0", "0", "0", "1", "1", "0", "0"
-(TRANSFORM) "0", "0", "1", "1", "0", "0", "0", "1", "0"| "-15.693583224566", "23.145600389778", "-1.524"(ENDTRANSFORM)
+     .ReferenceWCS "7.62", "15.6512760028", "0", "0", "0", "1", "1", "0", "0"
+(TRANSFORM) "0", "0", "1", "1", "0", "0", "0", "1", "0"| "-15.651276002842", "23.172021151582", "-1.524"(ENDTRANSFORM)
 [ENDWAVEGUIDE]
 [ANCHORPOINTS]
-AnchorPoint.Define "Boundary:Xmax", "True", "17.6020008405", "1.90711175738", "6.09341558226", "1", "0", "0", "0", "1", "0" 
-AnchorPoint.Define "Boundary:Xmin", "True", "-17.6020008405", "1.90711175738", "6.09341558226", "-1", "0", "0", "0", "1", "0" 
-AnchorPoint.Define "Boundary:Ymax", "True", "0", "23.1456003898", "6.09341558226", "0", "1", "0", "1", "0", "0" 
-AnchorPoint.Define "Boundary:Ymin", "True", "0", "-19.331376875", "6.09341558226", "0", "-1", "0", "1", "0", "0" 
-AnchorPoint.Define "Boundary:Zmax", "True", "0", "1.90711175738", "13.716", "0", "0", "1", "1", "0", "0" 
-AnchorPoint.Define "Boundary:Zmin", "True", "0", "1.90711175738", "-1.52916883548", "0", "0", "-1", "1", "0", "0" 
+AnchorPoint.Define "Boundary:Xmax", "True", "18.079573835", "1.88069099558", "6.0934043943", "1", "0", "0", "0", "1", "0" 
+AnchorPoint.Define "Boundary:Xmin", "True", "-18.079573835", "1.88069099558", "6.0934043943", "-1", "0", "0", "0", "1", "0" 
+AnchorPoint.Define "Boundary:Ymax", "True", "0", "23.1720211516", "6.0934043943", "0", "1", "0", "1", "0", "0" 
+AnchorPoint.Define "Boundary:Ymin", "True", "0", "-19.4106391604", "6.0934043943", "0", "-1", "0", "1", "0", "0" 
+AnchorPoint.Define "Boundary:Zmax", "True", "0", "1.88069099558", "13.716", "0", "0", "1", "1", "0", "0" 
+AnchorPoint.Define "Boundary:Zmin", "True", "0", "1.88069099558", "-1.52919121139", "0", "0", "-1", "1", "0", "0" 
 [ENDANCHORPOINTS]
 [GROUPS]
 Group.Add "meshgroup1", "mesh"
@@ -590,7 +591,7 @@ With MeshSettings
           .SetWithVersion "", "VolumeRefinementNumSteps", "0", "0", "0"
           .SetWithVersion "", "VolumeRefinementRatio", "0", "0", "0"
           .SetWithVersion "", "VolumeRefinementScopeType", "ALL"
-          .SetWithVersion "", "VolumeRefinementStep", "0.90716644913280098/4", "0", "0"
+          .SetWithVersion "", "VolumeRefinementStep", "0.82255200568344999/4", "0", "0"
           .SetWithVersion "", "VolumeRefinementType", "ABS_VALUE"
           .SetWithVersion "", "VolumeRefinementValueUseSameXYZ", 0
           .SetMeshType "HexTLM"
@@ -636,7 +637,7 @@ With MeshSettings
           .SetWithVersion "", "VolumeRefinementNumSteps", "0", "0", "0"
           .SetWithVersion "", "VolumeRefinementRatio", "0", "0", "0"
           .SetWithVersion "", "VolumeRefinementScopeType", "ALL"
-          .SetWithVersion "", "VolumeRefinementStep", "0.90716644913280098/4", "0", "0"
+          .SetWithVersion "", "VolumeRefinementStep", "0.82255200568344999/4", "0", "0"
           .SetWithVersion "", "VolumeRefinementType", "ABS_VALUE"
           .SetWithVersion "", "VolumeRefinementValueUseSameXYZ", 0
      End With
@@ -685,7 +686,7 @@ With MeshSettings
           .SetWithVersion "", "VolumeRefinementNumSteps", "0", "0", "0"
           .SetWithVersion "", "VolumeRefinementRatio", "0", "0", "0"
           .SetWithVersion "", "VolumeRefinementScopeType", "ALL"
-          .SetWithVersion "", "VolumeRefinementStep", "0.30294051412649597/4", "0", "0"
+          .SetWithVersion "", "VolumeRefinementStep", "0.30391246756169998/4", "0", "0"
           .SetWithVersion "", "VolumeRefinementType", "ABS_VALUE"
           .SetWithVersion "", "VolumeRefinementValueUseSameXYZ", 0
           .SetMeshType "HexTLM"
@@ -731,7 +732,7 @@ With MeshSettings
           .SetWithVersion "", "VolumeRefinementNumSteps", "0", "0", "0"
           .SetWithVersion "", "VolumeRefinementRatio", "0", "0", "0"
           .SetWithVersion "", "VolumeRefinementScopeType", "ALL"
-          .SetWithVersion "", "VolumeRefinementStep", "0.30294051412649597/4", "0", "0"
+          .SetWithVersion "", "VolumeRefinementStep", "0.30391246756169998/4", "0", "0"
           .SetWithVersion "", "VolumeRefinementType", "ABS_VALUE"
           .SetWithVersion "", "VolumeRefinementValueUseSameXYZ", 0
      End With

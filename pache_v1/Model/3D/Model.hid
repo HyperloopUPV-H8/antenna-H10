@@ -5,7 +5,7 @@
 false
 [end]draw_workplane
 [start]draw_bounding_box
-true
+false
 [end]draw_bounding_box
 [start]draw_wireframe
 false

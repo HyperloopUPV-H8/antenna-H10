@@ -1,4 +1,4 @@
-2024-12-09 11:56:04   Optimizer Settings:
+2024-12-09 20:12:38   Optimizer Settings:
 
                       Optimizer type: Trust Region Framework
                       		Type: Local linear models on primary data
@@ -17,255 +17,367 @@
                       ---------------------------------------------------------------------------------------
                       | name                    |          min |          max |      initial |
                       ---------------------------------------------------------------------------------------
-                      | patch_length            |        9.904 |       16.507 |      13.2056 |
-                      | patch_width             |       13.098 |        21.83 |      17.4639 |
+                      | feed_line_width         |       0.8164 |       0.9979 |      0.82494 |
+                      | matching_line_width     |      0.27265 |      0.33323 |     0.301517 |
+                      | patch_length            |       11.599 |       14.176 |      12.9366 |
+                      | patch_width             |       15.842 |       19.362 |      18.0056 |
                       ---------------------------------------------------------------------------------------
 
                       Goal functionals used for optimization:
 
-                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -50 in range: 5.8, weighted: 1.0
-2024-12-09 11:56:05   
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -50 in range: 5.775, weighted: 1.0
+                      1DC: 1D Results\Reference Impedance\ZRef 1(1): operate by "=" with target 100 in range: 5.735...5.815, weighted: 1.0
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -20 in range: 5.73...5.82, weighted: 1.0
+2024-12-09 20:12:39   
                       ________________________________________________________________________
 
-                      Extracted data from previously calculated system for parameters:
+                      The optimization process is trying to import data of previous calculations. Please make sure that the solver's settings for the existing results agree with the ones stored in the tables.
 
-                      	patch_length = 13.2056
-                      	patch_width = 17.4639
+2024-12-09 20:12:39   
+                      ________________________________________________________________________
+
+                      Recovered data from previous calculations for parameters:
+
+                      	feed_line_width = 0.82494
+                      	matching_line_width = 0.301517
+                      	patch_length = 12.9366
+                      	patch_width = 18.0056
 
                       (Corresponding to run ID: 1)
 
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 42.1975 (Solver)
-                      	Last goal function value   = 42.1975 (Solver)
-2024-12-09 12:03:08   
-                      ________________________________________________________________________
-
-                      Solved problem for parameters:
-
-                      	patch_length = 13.2716
-                      	patch_width = 17.4639
-
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 42.1975 (Solver)
-                      	Last goal function value   = 43.5483 (Solver)
-
-                      	Solver time = 00:06:45 h
-                      	Parameter update time = 00:00:18 h
-2024-12-09 12:10:48   
-                      ________________________________________________________________________
-
-                      Solved problem for parameters:
-
-                      	patch_length = 13.2056
-                      	patch_width = 17.5512
-
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 42.1975 (Solver)
-                      	Last goal function value   = 42.292 (Solver)
-
-                      	Solver time = 00:07:28 h
-                      	Parameter update time = 00:00:11 h
-2024-12-09 12:10:49   
-                      ________________________________________________________________________
-
-                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 24.2602 (current anchor: 42.1975)
-                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.40857
-
-
-2024-12-09 12:18:43   
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 14.1762 (Solver)
+                      	Last goal function value   = 14.1762 (Solver)
+2024-12-09 20:25:45   
                       ________________________________________________________________________
 
                       Optimizer is creating a backup of the project including results.
 
 
 
-2024-12-09 12:19:04   
+2024-12-09 20:26:00   
                       ________________________________________________________________________
 
                       Solved problem for parameters:
 
-                      	patch_length = 12.6559
-                      	patch_width = 20.9567
+                      	feed_line_width = 0.826755
+                      	matching_line_width = 0.301517
+                      	patch_length = 12.9366
+                      	patch_width = 18.0056
 
 
-                      Created complete backup of the project. (21 sec)
+                      Created complete backup of the project. (15 sec)
 
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 36.3595 (Solver)
-                      	Last goal function value   = 36.3595 (Solver)
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 11.6825 (Solver)
+                      	Last goal function value   = 11.6825 (Solver)
 
-                      	Solver time = 00:07:43 h
-                      	Parameter update time = 00:00:11 h
-2024-12-09 12:27:20   
-                      ________________________________________________________________________
-
-                      Optimizer is creating a backup of the project including results.
-
-
-
-2024-12-09 12:27:46   
-                      ________________________________________________________________________
-
-                      Solved problem for parameters:
-
-                      	patch_length = 12.722
-                      	patch_width = 20.9567
-
-
-                      Created complete backup of the project. (26 sec)
-
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 33.8358 (Solver)
-                      	Last goal function value   = 33.8358 (Solver)
-
-                      	Solver time = 00:08:04 h
-                      	Parameter update time = 00:00:12 h
-2024-12-09 12:36:08   
-                      ________________________________________________________________________
-
-                      Solved problem for parameters:
-
-                      	patch_length = 12.6559
-                      	patch_width = 21.044
-
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 33.8358 (Solver)
-                      	Last goal function value   = 36.3419 (Solver)
-
-                      	Solver time = 00:08:08 h
+                      	Solver time = 00:12:53 h
                       	Parameter update time = 00:00:13 h
-2024-12-09 12:36:08   
+2024-12-09 20:38:13   
                       ________________________________________________________________________
 
-                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 11.9761 (current anchor: 36.3595)
-                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.401586
+                      Solved problem for parameters:
 
+                      	feed_line_width = 0.82494
+                      	matching_line_width = 0.302123
+                      	patch_length = 12.9366
+                      	patch_width = 18.0056
 
-2024-12-09 12:43:30   
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 11.6825 (Solver)
+                      	Last goal function value   = 13.3486 (Solver)
+
+                      	Solver time = 00:12:06 h
+                      	Parameter update time = 00:00:07 h
+2024-12-09 20:50:44   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 0.82494
+                      	matching_line_width = 0.301517
+                      	patch_length = 12.9624
+                      	patch_width = 18.0056
+
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 11.6825 (Solver)
+                      	Last goal function value   = 24.8674 (Solver)
+
+                      	Solver time = 00:12:23 h
+                      	Parameter update time = 00:00:08 h
+2024-12-09 21:04:38   
                       ________________________________________________________________________
 
                       Optimizer is creating a backup of the project including results.
 
 
 
-2024-12-09 12:43:54   
+2024-12-09 21:04:56   
                       ________________________________________________________________________
 
                       Solved problem for parameters:
 
-                      	patch_length = 12.8913
-                      	patch_width = 17.4639
+                      	feed_line_width = 0.82494
+                      	matching_line_width = 0.301517
+                      	patch_length = 12.9366
+                      	patch_width = 18.0408
 
 
-                      Created complete backup of the project. (24 sec)
+                      Created complete backup of the project. (18 sec)
 
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 10.5196 (Solver)
-                      	Last goal function value   = 10.5196 (Solver)
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 9.87771 (Solver)
+                      	Last goal function value   = 9.87771 (Solver)
 
-                      	Solver time = 00:07:09 h
-                      	Parameter update time = 00:00:12 h
-2024-12-09 12:43:54   
+                      	Solver time = 00:13:45 h
+                      	Parameter update time = 00:00:07 h
+2024-12-09 21:04:57   
                       ________________________________________________________________________
 
-                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 0 (current anchor: 10.5196)
-                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.0288266
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 4.22473 (current anchor: 14.1762)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.04313
 
 
-2024-12-09 12:49:55   
-                      ________________________________________________________________________
-
-                      Solved problem for parameters:
-
-                      	patch_length = 12.8897
-                      	patch_width = 17.7156
-
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 10.5196 (Solver)
-                      	Last goal function value   = 11.1749 (Solver)
-
-                      	Solver time = 00:05:48 h
-                      	Parameter update time = 00:00:12 h
-2024-12-09 12:56:29   
-                      ________________________________________________________________________
-
-                      Solved problem for parameters:
-
-                      	patch_length = 12.9574
-                      	patch_width = 17.4639
-
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 10.5196 (Solver)
-                      	Last goal function value   = 29.177 (Solver)
-
-                      	Solver time = 00:06:22 h
-                      	Parameter update time = 00:00:12 h
-2024-12-09 13:03:19   
+2024-12-09 21:17:58   
                       ________________________________________________________________________
 
                       Optimizer is creating a backup of the project including results.
 
 
 
-2024-12-09 13:03:43   
+2024-12-09 21:18:15   
                       ________________________________________________________________________
 
                       Solved problem for parameters:
 
-                      	patch_length = 12.8913
-                      	patch_width = 17.5512
+                      	feed_line_width = 0.822552
+                      	matching_line_width = 0.303912
+                      	patch_length = 12.9404
+                      	patch_width = 18.0444
 
 
-                      Created complete backup of the project. (24 sec)
+                      Created complete backup of the project. (17 sec)
 
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 2.28335 (Solver)
-                      	Last goal function value   = 2.28335 (Solver)
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 4.42546 (Solver)
+                      	Last goal function value   = 4.42546 (Solver)
 
-                      	Solver time = 00:06:37 h
-                      	Parameter update time = 00:00:12 h
-2024-12-09 13:03:44   
+                      	Solver time = 00:12:54 h
+                      	Parameter update time = 00:00:06 h
+2024-12-09 21:18:16   
                       ________________________________________________________________________
 
-                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 0 (current anchor: 10.5196)
-                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.0158283
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 4.18762 (current anchor: 4.42546)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.257652
 
 
-2024-12-09 13:10:27   
+2024-12-09 21:35:23   
                       ________________________________________________________________________
 
                       Solved problem for parameters:
 
-                      	patch_length = 12.8876
-                      	patch_width = 17.602
+                      	feed_line_width = 0.818378
+                      	matching_line_width = 0.318064
+                      	patch_length = 12.9064
+                      	patch_width = 18.4155
 
-                      	Initial goal function value  = 42.1975 (Solver)
-                      	Best goal function value   = 0 (Solver)
-                      	Last goal function value   = 0 (Solver)
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 4.42546 (Solver)
+                      	Last goal function value   = 26.7009 (Solver)
 
-                      	Solver time = 00:06:31 h
-                      	Parameter update time = 00:00:12 h
+                      	Solver time = 00:17:01 h
+                      	Parameter update time = 00:00:06 h
+2024-12-09 21:51:22   
+                      ________________________________________________________________________
 
-                      	Optimization process aborted.
-2024-12-09 13:10:28   
+                      Solved problem for parameters:
+
+                      	feed_line_width = 0.824367
+                      	matching_line_width = 0.303912
+                      	patch_length = 12.9404
+                      	patch_width = 18.0444
+
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 4.42546 (Solver)
+                      	Last goal function value   = 5.61282 (Solver)
+
+                      	Solver time = 00:15:51 h
+                      	Parameter update time = 00:00:08 h
+2024-12-09 22:05:24   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-12-09 22:05:42   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 0.822552
+                      	matching_line_width = 0.304518
+                      	patch_length = 12.9404
+                      	patch_width = 18.0444
+
+
+                      Created complete backup of the project. (17 sec)
+
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 4.39149 (Solver)
+                      	Last goal function value   = 4.39149 (Solver)
+
+                      	Solver time = 00:13:55 h
+                      	Parameter update time = 00:00:07 h
+2024-12-09 22:22:23   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 0.822552
+                      	matching_line_width = 0.303912
+                      	patch_length = 12.9662
+                      	patch_width = 18.0444
+
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 4.39149 (Solver)
+                      	Last goal function value   = 26.3022 (Solver)
+
+                      	Solver time = 00:16:34 h
+                      	Parameter update time = 00:00:06 h
+2024-12-09 22:35:42   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-12-09 22:36:01   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 0.822552
+                      	matching_line_width = 0.303912
+                      	patch_length = 12.9404
+                      	patch_width = 18.0796
+
+
+                      Created complete backup of the project. (19 sec)
+
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 4.26229 (Solver)
+                      	Last goal function value   = 4.26229 (Solver)
+
+                      	Solver time = 00:13:12 h
+                      	Parameter update time = 00:00:06 h
+2024-12-09 22:36:03   
+                      ________________________________________________________________________
+
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 4.06424 (current anchor: 4.42546)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.231659
+
+
+2024-12-09 22:48:17   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 0.816507
+                      	matching_line_width = 0.317792
+                      	patch_length = 12.9388
+                      	patch_width = 18.0162
+
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 4.26229 (Solver)
+                      	Last goal function value   = 20.603 (Solver)
+
+                      	Solver time = 00:12:07 h
+                      	Parameter update time = 00:00:06 h
+2024-12-09 22:48:17   
+                      ________________________________________________________________________
+
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 4.16577 (current anchor: 4.26229)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.0784629
+
+
+2024-12-09 23:00:58   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 0.821344
+                      	matching_line_width = 0.308539
+                      	patch_length = 12.9425
+                      	patch_width = 18.0208
+
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 4.26229 (Solver)
+                      	Last goal function value   = 12.2506 (Solver)
+
+                      	Solver time = 00:12:33 h
+                      	Parameter update time = 00:00:07 h
+2024-12-09 23:00:58   
+                      ________________________________________________________________________
+
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 4.20224 (current anchor: 4.26229)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.0256378
+
+
+2024-12-09 23:13:51   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 0.822501
+                      	matching_line_width = 0.305454
+                      	patch_length = 12.9408
+                      	patch_width = 18.0684
+
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 4.26229 (Solver)
+                      	Last goal function value   = 4.26641 (Solver)
+
+                      	Solver time = 00:12:47 h
+                      	Parameter update time = 00:00:06 h
+2024-12-09 23:15:08   
+                      ========================================================================
+
+                      Recovered data for best parameters:
+
+                      	feed_line_width = 0.822552
+                      	matching_line_width = 0.303912
+                      	patch_length = 12.9404
+                      	patch_width = 18.0796
+
+
+                      Result data recovered from project backup.
+
+                      	Initial goal function value  = 14.1762 (Solver)
+                      	Best goal function value   = 4.26229 (Solver)
+                      	Last goal function value   = 4.26229 (Solver)
+2024-12-09 23:15:08   
                       ________________________________________________________________________
 
 
                       Optimization run statistics: 
 
-                      Finite difference evaluations skipped by using a preceding gradient: 2
+                      Finite difference evaluations skipped by using a preceding gradient: 4
+                      	Re-used derivatives for parameter feed_line_width: 1
+                      	Re-used derivatives for parameter matching_line_width: 1
                       	Re-used derivatives for parameter patch_length: 1
                       	Re-used derivatives for parameter patch_width: 1
 
 
-2024-12-09 13:10:28   	Total solver time           = 01:10:37 h (10 solver runs)
-                      	Total data recovery time    = 00:00:00 h (1 loaded)
-                      	Total parameter update time = 00:02:04 h
-                      	Total backup project time   = 00:01:36 h (4 backups)
-                      	Total optimizer time        = 01:14:23 h (11 evaluations)
+2024-12-09 23:15:08   	Total solver time           = 02:58:01 h (13 solver runs)
+                      	Total data recovery time    = 00:01:16 h (2 loaded)
+                      	Total parameter update time = 00:01:34 h
+                      	Total backup project time   = 00:01:28 h (5 backups)
+                      	Total optimizer time        = 03:02:30 h (15 evaluations)
 
-2024-12-09 13:10:28   
+2024-12-09 23:15:08   
                       ________________________________________________________________________
 
-                      Optimization was able to satisfy the defined goals. Best parameter set is stored.
+                      Optimization successfully improved the goal value. Best parameter set is stored.
 

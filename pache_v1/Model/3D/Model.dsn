@@ -25,8 +25,8 @@ PortSourceGroups:
 FloquetPortSourceGroups:
 SchematicPortSourceGroups:
 Number of frequency-points: 1
-Fmin: 4.060000e+09
-Fmax: 7.540000e+09
+Fmin: 4.042500e+09
+Fmax: 7.507500e+09
 Fscale: 1.000000e+09
 
 
@@ -49,7 +49,7 @@ PortModeConsState: 0
 *** newmonitor
 monname: "farfield (f=0.9frequency_centre)"
 nmonfrequencies: 1
-monfrequencies: "5.2199999999999998" 
+monfrequencies: "5.1974999999999998" 
 montype: 18
 mondomain: 1
 mon_fmin: ""
@@ -60,7 +60,7 @@ mon_nfSteps: ""
 *** newmonitor
 monname: "farfield (f=frequency_centre)"
 nmonfrequencies: 1
-monfrequencies: "5.7999999999999998" 
+monfrequencies: "5.7750000000000004" 
 montype: 18
 mondomain: 1
 mon_fmin: ""
@@ -71,7 +71,7 @@ mon_nfSteps: ""
 *** newmonitor
 monname: "farfield (f=1.1frequency_centre)"
 nmonfrequencies: 1
-monfrequencies: "6.3799999999999999" 
+monfrequencies: "6.3525" 
 montype: 18
 mondomain: 1
 mon_fmin: ""
