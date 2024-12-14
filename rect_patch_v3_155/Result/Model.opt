@@ -1,0 +1,161 @@
+2024-12-14 14:10:12   Optimizer Settings:
+
+                      Optimizer type: Trust Region Framework
+                      		Type: Local linear models on primary data
+                      .		Min trust region size (in unit cube): 0.01
+                      		Smart sensitivity updates: Legacy
+                      		Finite difference delta: 0.01
+                      		Finite difference adjustment: Moderate
+                      		Sigma (measure for globalness): 0.2
+                      			Tabu list vicinity radius: 0
+                      			Initial exploration threshold: 0
+                      		Surrogate optimization strategy: Automatic
+
+                      ---------------------------------------------------------------------------------------
+
+                      Parameters used for optimization:
+                      ---------------------------------------------------------------------------------------
+                      | name                    |          min |          max |      initial |
+                      ---------------------------------------------------------------------------------------
+                      | feed_line_width         |       1.4119 |       2.3531 |      1.88251 |
+                      | matching_line_width     |        0.287 |       0.4784 |     0.382723 |
+                      ---------------------------------------------------------------------------------------
+
+                      Goal functionals used for optimization:
+
+                      1DC: 1D Results\Reference Impedance\ZRef 1(1): operate by "=" with target 50 in range: 5.735...5.815, weighted: 1.0
+2024-12-14 14:20:53   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-12-14 14:21:19   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 1.88251
+                      	matching_line_width = 0.382723
+
+
+                      Created complete backup of the project. (25 sec)
+
+                      	Initial goal function value  = 0.794144 (Solver)
+                      	Best goal function value   = 0.794144 (Solver)
+                      	Last goal function value   = 0.794144 (Solver)
+
+                      	Solver time = 00:10:30 h
+                      	Parameter update time = 00:00:11 h
+2024-12-14 14:31:42   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 1.89192
+                      	matching_line_width = 0.382723
+
+                      	Initial goal function value  = 0.794144 (Solver)
+                      	Best goal function value   = 0.794144 (Solver)
+                      	Last goal function value   = 0.948104 (Solver)
+
+                      	Solver time = 00:10:11 h
+                      	Parameter update time = 00:00:12 h
+2024-12-14 14:42:09   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 1.88251
+                      	matching_line_width = 0.384637
+
+                      	Initial goal function value  = 0.794144 (Solver)
+                      	Best goal function value   = 0.794144 (Solver)
+                      	Last goal function value   = 0.794144 (Solver)
+
+                      	Solver time = 00:10:16 h
+                      	Parameter update time = 00:00:11 h
+2024-12-14 14:42:10   
+                      ________________________________________________________________________
+
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 0.000355989 (current anchor: 0.794144)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.0616695
+
+
+2024-12-14 14:52:00   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-12-14 14:52:26   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 1.83398
+                      	matching_line_width = 0.376246
+
+
+                      Created complete backup of the project. (26 sec)
+
+                      	Initial goal function value  = 0.794144 (Solver)
+                      	Best goal function value   = 0.0191407 (Solver)
+                      	Last goal function value   = 0.0191407 (Solver)
+
+                      	Solver time = 00:09:38 h
+                      	Parameter update time = 00:00:11 h
+2024-12-14 14:52:27   
+                      ________________________________________________________________________
+
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 0.000357007 (current anchor: 0.0191407)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.00164006
+
+
+2024-12-14 15:03:00   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-12-14 15:03:27   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_width = 1.83513
+                      	matching_line_width = 0.376456
+
+
+                      Created complete backup of the project. (27 sec)
+
+                      	Initial goal function value  = 0.794144 (Solver)
+                      	Best goal function value   = 0.00107423 (Solver)
+                      	Last goal function value   = 0.00107423 (Solver)
+
+                      	Solver time = 00:10:22 h
+                      	Parameter update time = 00:00:11 h
+2024-12-14 15:03:27   
+                      ________________________________________________________________________
+
+
+                      Optimization run statistics: 
+
+                      Finite difference evaluations skipped by using a preceding gradient: 2
+                      	Re-used derivatives for parameter feed_line_width: 1
+                      	Re-used derivatives for parameter matching_line_width: 1
+
+
+2024-12-14 15:03:28   	Total solver time           = 00:50:56 h (5 solver runs)
+                      	Total parameter update time = 00:00:55 h
+                      	Total backup project time   = 00:01:19 h (3 backups)
+                      	Total optimizer time        = 00:53:15 h (5 evaluations)
+
+2024-12-14 15:03:28   
+                      ________________________________________________________________________
+
+                      Optimization successfully improved the goal value. Best parameter set is stored.
+
