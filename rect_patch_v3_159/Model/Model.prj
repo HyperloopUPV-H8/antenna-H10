@@ -1,0 +1,13 @@
+{
+   "Author": "Antenna Magus",
+   "Comment": "Project name: Rectangular Edge Fed Patch\n\n\n\nDate created: 09/02/2008\n\n\n\nThis model uses a finite ground plane and dielectric model; the effect of different ground plane sizes can be investigated by adjusting the 'groundplane_length' and 'groundplane_width' variables. The ground-plane length on the feed side of the patch is however governed by the 'feed_line_length+matching_line_length' parameters. The antenna is fed using a waveguide port defined at the edge of the feed-line. This antenna posses magnetic symmetry along its centre-line that is  defined as a magnetic symmetry plane to speed up simulation. \n\n\n\nMeshing:\n\n\n\nThe global mesh density is set to 20 lines per wavelength, with a lower mesh limit of 5 and a mesh line ratio of 20, with a PEC edge refinement factor of 7. This should provide good accuracy most of the time, but full convergence may be ensured by enabling energy based mesh adaption.\n\n\n\nLocal mesh refinement is activated on the substrate, to ensure that a minimum of 3 mesh lines are used over the thickness.\n\n\n\nAlthough in most cases it is slower, the frequency domain solver can be used with this model. It is recommended that when using the frequency solver the metal thickness is set to 0 to improve the tetrahedral mesh.",
+   "Last Problem Type": "High Frequency",
+   "Last Solver Type": "HF Frequency Domain",
+   "Last Solver Type Abb": "f",
+   "Mesh Cells": "109,799",
+   "Mesh Type": "Tetrahedral",
+   "Modeler Unique ID": "5:rect_patch_v3_159.cst?892362e09c49d879164f6659fb3009c6?42683:numberofparameters=15:port=1>mode=1>zre=0>zim=0:::c0?feed_line_length?feed_line_width?frequency_centre?groundplane_feed_extension?groundplane_length?groundplane_width?matching_line_length?matching_line_width?metal_thickness?patch_length?patch_width?relative_permittivity?substrate_height?wavelength_centre",
+   "ProjectVersion": "'# MWS Version: Version 2024.4 - Apr 30 2024 - ACIS 33.0.1 -",
+   "Results": "Frequency Domain: S-Parameter",
+   "Version": "3"
+}
