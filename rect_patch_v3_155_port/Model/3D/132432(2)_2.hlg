@@ -1,0 +1,123 @@
+--------------------------------------------------------------------------------
+Translator Name    : Spatial InterOp Connect ( Version : 2024 1.0.0 )
+System Name        : Windows_NT
+Machine Name       : GAMSERVERHP3
+User Name          : MSANLLI
+Source System      : STEP
+Destination System : ACIS
+Input File         : \\gamserverhp5.iteam.upv.es\PERFILES$\MSANLLI\Desktop\Joan\rect_patch_v3_155\Model\3D\132432(2)_2.stp
+Output File        : \\gamserverhp5.iteam.upv.es\PERFILES$\MSANLLI\Desktop\Joan\rect_patch_v3_155\Model\3D\132432(2)_2.sab
+Start Time         : Thu Dec 19 21:31:54 2024
+
+--------------------------------------------------------------------------------
+Message : === Translation Options ===
+Message : Step.BRep.TranslateClassIVAsTrim : false
+Message : TranslateAttributes : true
+Message : IGES.TrimCurveReadPreference : 0
+Message : TranslateFreePoints : false
+Message : ProE.BRep.AllowNonManifoldTopology : true
+Message : Step.Brep.ReadScaleFactor : -1.0
+Message : AssemblySearchPath : ""
+Message : Step.BRep.ExplodeClassIIWires : true
+Message : ProE.DoSplineResurface : true
+Message : ProE.TranslateWorkPlanes : false
+Message : SEDirect.TranslateWorkPlanes : false
+Message : CatiaV5.TranslateWorkPlanes : false
+Message : ProE.TranslateSheetBodies : false
+Message : SaveVersion : 3300
+Message : ===========================
+-------------------------Source File Header Information-------------------------
+Modification Date        : 2019-12-12T
+File Name                : 132432_SW0001
+Author                   : 'karthik'
+Organization             : ''
+Source System            : CREO PARAMETRIC BY PTC INC, 2018360 CREO PARAMETRIC BY PTC INC, 2018360
+Version                  : AP203
+Authorization            : 
+File Description         : ''
+Implementation Level     : 2;1
+File Schema Name         : 'CONFIG_CONTROL_DESIGN'
+Document Type            : Part
+Units                    : MILLIMETER
+Format Type              : STEP
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Source Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Start BRep
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+BRep Source Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+BRep Target Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+BRep Source Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+BRep Target Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+End BRep
+------------------------Representation Conversion Summary-----------------------
+No. of Acorn Bodies                       :    0
+No. of Sheet Bodies                       :    0
+No. of Mixed Bodies                       :    0
+No. of Solid Bodies                       :    1
+No. of Wire Bodies                        :    0
+No. of Free Surfaces                      :    0
+No. of Free Curves                        :    0
+No. of Free Points                        :    0
+--------------------------------------------------------------------------------
+BRep Conversion Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Start DocumentFeature
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DocumentFeature Source Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DocumentFeature Target Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DocumentFeature Source Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DocumentFeature Target Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+End DocumentFeature
+------------------------Representation Conversion Summary-----------------------
+No. of Working Coordinate Systems         :    0
+No. of Selection Sets                     :    0
+No. of Layer Filters                      :    0
+No. of Associative Groups                 :    0
+--------------------------------------------------------------------------------
+DocumentFeature Conversion Result : No Entity to Translate
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+---------------------------Document Conversion Summary--------------------------
+No. of Items of BRep Representation            :    1
+No. of Items of DocumentFeature Representation :    0
+--------------------------------------------------------------------------------
+Message : Setting save mode for ACIS file based on the file extension
+Output File "\\gamserverhp5.iteam.upv.es\PERFILES$\MSANLLI\Desktop\Joan\rect_patch_v3_155\Model\3D\132432(2)_2.sab" is Successfully Written
+--------------------------------------------------------------------------------
+Finish Time : Thu Dec 19 21:31:55 2024
+
+--------------------------------------------------------------------------------
+Translation Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

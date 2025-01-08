@@ -1,0 +1,58 @@
+2024-12-20 19:47:57   Optimizer Settings:
+
+                      Optimizer type: Trust Region Framework
+                      		Type: Local linear models on primary data
+                      .		Min trust region size (in unit cube): 0.01
+                      		Smart sensitivity updates: Legacy
+                      		Finite difference delta: 0.01
+                      		Finite difference adjustment: Moderate
+                      		Sigma (measure for globalness): 0.2
+                      			Tabu list vicinity radius: 0
+                      			Initial exploration threshold: 0
+                      		Surrogate optimization strategy: Automatic
+
+                      ---------------------------------------------------------------------------------------
+
+                      Parameters used for optimization:
+                      ---------------------------------------------------------------------------------------
+                      | name                    |          min |          max |      initial |
+                      ---------------------------------------------------------------------------------------
+                      | patch_length            |       10.066 |       16.776 |       13.421 |
+                      | patch_width             |        13.09 |       21.816 |      17.4531 |
+                      ---------------------------------------------------------------------------------------
+
+                      Goal functionals used for optimization:
+
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -50 in range: 5.775, weighted: 0.9
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -20 in range: 5.735...5.815, weighted: 0.9
+2024-12-20 19:47:57   
+                      ________________________________________________________________________
+
+                      Extracted data from previously calculated system for parameters:
+
+                      	patch_length = 13.421
+                      	patch_width = 17.4531
+
+                      	Initial goal function value  = 37.2017 (Solver)
+                      	Best goal function value   = 37.2017 (Solver)
+                      	Last goal function value   = 37.2017 (Solver)
+2024-12-20 19:49:35   
+                      ________________________________________________________________________
+
+                      Trust Region Framework: 
+
+2024-12-20 19:49:37   
+                      ________________________________________________________________________
+
+
+2024-12-20 19:49:37   	Total solver time           = 00:00:00 h
+                      	Total data recovery time    = 00:00:00 h (1 loaded)
+                      	Total parameter update time = 00:00:00 h
+                      	Total optimizer time        = 00:01:40 h (1 evaluations)
+
+2024-12-20 19:49:37   
+                      ________________________________________________________________________
+
+                      Optimization aborted without improved goal value.
+                      The initial parameters are kept.
+

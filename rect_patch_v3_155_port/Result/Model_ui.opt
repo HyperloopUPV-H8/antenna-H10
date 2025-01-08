@@ -1,0 +1,14 @@
+Algorithm: Trust Region Framework
+
+Number of parameters:  2
+Number of evaluations: 1
+              (solver: 0, reloaded: 1)
+
+Initial goal function value = 37.2017009751  (reloaded)
+Best goal function value    = 37.2017009751 (reloaded)
+Last goal function value    = 37.2017009751  (reloaded)
+
+Best parameters so far:
+
+ patch_length = 13.421
+ patch_width = 17.4531
