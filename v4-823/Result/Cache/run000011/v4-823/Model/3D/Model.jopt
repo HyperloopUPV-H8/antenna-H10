@@ -1,0 +1,246 @@
+{
+    "Optimizer": {
+        "Goals": [
+            {
+                "Complex Type": "MagdB",
+                "Goal Name": "Result 1DC",
+                "Goal Norm": "MaxDiff",
+                "Goal active": "True",
+                "Operator": "<",
+                "Range From": "frequency_centre",
+                "Range To": "frequency_centre",
+                "Range Type": "Single",
+                "Result List": [
+                    {
+                        "Data Source": "Solver",
+                        "Treepath": "1D Results\\S-Parameters\\S1,1",
+                        "Type": "1D Complex"
+                    }
+                ],
+                "Target": "-50",
+                "Target Max": "0.0",
+                "Use Slope": "False",
+                "Weight": "0.9"
+            },
+            {
+                "Complex Type": "MagdB",
+                "Goal Name": "Result 1DC",
+                "Goal Norm": "MaxDiff",
+                "Goal active": "True",
+                "Operator": "<",
+                "Range From": "frequency_centre-0.04",
+                "Range To": "frequency_centre+0.04",
+                "Range Type": "Range",
+                "Result List": [
+                    {
+                        "Data Source": "Solver",
+                        "Treepath": "1D Results\\S-Parameters\\S1,1",
+                        "Type": "1D Complex"
+                    }
+                ],
+                "Target": "-20",
+                "Target Max": "0.0",
+                "Use Slope": "False",
+                "Weight": "0.9"
+            },
+            {
+                "Complex Type": "MagLin",
+                "Goal Name": "Result 1DC",
+                "Goal Norm": "MaxDiff",
+                "Goal active": "False",
+                "Operator": "=",
+                "Range From": "frequency_centre-0.04",
+                "Range To": "frequency_centre+0.04",
+                "Range Type": "Range",
+                "Result List": [
+                    {
+                        "Data Source": "Solver",
+                        "Treepath": "1D Results\\Reference Impedance\\ZRef 1(1)",
+                        "Type": "1D Complex"
+                    }
+                ],
+                "Target": "50",
+                "Target Max": "0.0",
+                "Use Slope": "False",
+                "Weight": "1.0"
+            },
+            {
+                "Goal Name": "Result Template 1D",
+                "Goal Norm": "MaxDiff",
+                "Goal active": "False",
+                "Operator": "move max",
+                "Range Type": "Total",
+                "Result List": [
+                    {
+                        "Data Source": "TBPP",
+                        "Template": "Directivity,Phi=90.0",
+                        "Type": "1D"
+                    }
+                ],
+                "Target": "0",
+                "Target Max": "0.0",
+                "Use Slope": "False",
+                "Weight": "1.0"
+            }
+        ],
+        "Parameters": {
+            "Parameter List": [
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "299.792458",
+                    "Max Value": "329.772",
+                    "Min Value": "269.813",
+                    "Parameter Name": "c0"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "7.9445169103034",
+                    "Max Value": "9.931",
+                    "Min Value": "5.958",
+                    "Parameter Name": "feed_line_length"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "1.8825107624061",
+                    "Max Value": "2.3531",
+                    "Min Value": "1.4119",
+                    "Parameter Name": "feed_line_width"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "5.775",
+                    "Max Value": "7.219",
+                    "Min Value": "4.331",
+                    "Parameter Name": "frequency_centre"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "8.340516201792",
+                    "Max Value": "10.426",
+                    "Min Value": "6.255",
+                    "Parameter Name": "matching_line_length"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.38272272955748",
+                    "Max Value": "0.4784",
+                    "Min Value": "0.287",
+                    "Parameter Name": "matching_line_width"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.0265",
+                    "Max Value": "0.03313",
+                    "Min Value": "0.01988",
+                    "Parameter Name": "metal_thickness"
+                },
+                {
+                    "Active": "True",
+                    "Anchors": "5",
+                    "Initial Value": "13.420970338216",
+                    "Max Value": "16.776",
+                    "Min Value": "10.066",
+                    "Parameter Name": "patch_length"
+                },
+                {
+                    "Active": "True",
+                    "Anchors": "5",
+                    "Initial Value": "17.453124757514",
+                    "Max Value": "21.816",
+                    "Min Value": "13.09",
+                    "Parameter Name": "patch_width"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "3.38",
+                    "Max Value": "2.2",
+                    "Min Value": "1.8",
+                    "Parameter Name": "relative_permittivity"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.813",
+                    "Max Value": "2.86",
+                    "Min Value": "2.34",
+                    "Parameter Name": "substrate_height"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0",
+                    "Max Value": "0.1",
+                    "Min Value": "-0.1",
+                    "Parameter Name": "tan_delta"
+                }
+            ],
+            "Range Percentage": "25",
+            "Start From Current": "False"
+        },
+        "Settings": {
+            "CMAES Settings": {
+                "Maximal Iterations": 3000,
+                "Seed": 1,
+                "Sigma": "0.2",
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "True"
+            },
+            "Classic Powell Settings": {
+                "Accuracy": "0.01"
+            },
+            "General Settings": {
+                "Algorithm Type": "Trust Region Framework",
+                "Data Storage Type": "None",
+                "Goal Summary Type": "Sum of all goals",
+                "Move Mesh": "False",
+                "Start Active Solver": "True",
+                "Use Data Of Prev Calculations": "False"
+            },
+            "Genetic Algorithm Settings": {
+                "Generation Size": 32,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 30,
+                "Mutation Rate": 60,
+                "Seed": 1
+            },
+            "Nelder Mead Simplex Settings": {
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Noisy Latin Hypercube Distribution",
+                "Maximal Iterations": 250,
+                "Min Simplex Size": "1e-6",
+                "Seed": 1,
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "False"
+            },
+            "Particle Swarm Settings": {
+                "Generation Size": 30,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 15,
+                "Seed": 1
+            },
+            "Quasi Newton Settings": {
+                "Refinements": "1"
+            },
+            "Trust Region Settings": {
+                "Domain Accuracy": "0.01",
+                "Finite Differences Delta": "Automatic",
+                "Maximal Iterations": 500,
+                "Sigma": "0.2",
+                "Use Maximal Iterations": "False"
+            }
+        },
+        "Version": 1
+    }
+}
