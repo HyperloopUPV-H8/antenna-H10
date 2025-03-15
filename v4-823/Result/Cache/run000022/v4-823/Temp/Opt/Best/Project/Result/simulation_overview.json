@@ -1,0 +1,865 @@
+{
+    "date": "2025-02-10, 2:32:41 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "standard simulation project",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 1,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 3:17:58 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "standard simulation project",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 2,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 4:13:05 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "standard simulation project",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 3,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 4:50:48 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 5:04:46 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 5:21:12 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 5:36:49 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 5:51:24 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 6:04:28 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 6:17:54 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 6:34:37 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 6:52:31 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 7:08:41 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 7:28:42 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 7:42:36 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-10, 7:56:07 PM, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-11, 17:29:59, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}{
+    "date": "2025-02-11, 17:44:03, Hora estándar romance",
+    "solver_runs_and_tasks": {
+        "module_name": "optimizer",
+        "solver_run": {
+            "license_and_hardware_request": {
+                "in_use": true,
+                "license_type": "CST legacy token",
+                "mpi": {
+                    "consistency_check": true,
+                    "num_different_mpi_nodes": 0,
+                    "num_local_mpi_nodes": 0,
+                    "num_mpi_nodes": 0
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": 0,
+                "num_physical_cores": -1,
+                "num_threads": 1
+            },
+            "opt_par_run_id": 0,
+            "return_code": 1,
+            "solver_hwacc_usage": {
+                "info": "gathered from solver run",
+                "mpi": {
+                    "consistency_check": false,
+                    "num_different_mpi_nodes": -1,
+                    "num_local_mpi_nodes": -1,
+                    "num_mpi_nodes": -1
+                },
+                "num_cpu_sockets": 1,
+                "num_dc_nodes": 0,
+                "num_gpus": -1,
+                "num_threads_or_physical_cores": 1
+            },
+            "solver_used": "SOLVER_HF_TET_FD",
+            "task_name": "solver run",
+            "time_info": {
+                "details": {
+                    "discretizer": 0,
+                    "solver": 0
+                },
+                "run_time": 0
+            }
+        }
+    },
+    "studio-version": "2024.4 Release from 2024-04-30 (change 1266454)",
+    "version": 1
+}

@@ -1,0 +1,96 @@
+{
+    "parameters": [
+        {
+            "expr": "c0/frequency_centre",
+            "name": "wavelength_centre",
+            "value": "51.9121139393939"
+        },
+        {
+            "descr": "Loss tangent of the substrate medium",
+            "expr": "0",
+            "name": "tan_delta",
+            "value": "0"
+        },
+        {
+            "descr": "Substrate height",
+            "expr": "0.813",
+            "name": "substrate_height",
+            "value": "0.813"
+        },
+        {
+            "descr": "Relative permittivity",
+            "expr": "3.38",
+            "name": "relative_permittivity",
+            "value": "3.38"
+        },
+        {
+            "descr": "Patch width",
+            "expr": "17.856574333625",
+            "name": "patch_width",
+            "value": "17.856574333625"
+        },
+        {
+            "descr": "Patch length",
+            "expr": "13.415180100607",
+            "name": "patch_length",
+            "value": "13.415180100607"
+        },
+        {
+            "expr": "0.0265",
+            "name": "metal_thickness",
+            "value": "0.0265"
+        },
+        {
+            "descr": "Matching line width",
+            "expr": "0.39060575792935",
+            "name": "matching_line_width",
+            "value": "0.39060575792935"
+        },
+        {
+            "descr": "Matching line length",
+            "expr": "8.2301175047469",
+            "name": "matching_line_length",
+            "value": "8.2301175047469"
+        },
+        {
+            "expr": "patch_width*2",
+            "name": "groundplane_width",
+            "value": "35.71314866725"
+        },
+        {
+            "expr": "patch_length*3",
+            "name": "groundplane_length",
+            "value": "40.245540301821"
+        },
+        {
+            "expr": "patch_length/2 + feed_line_length + matching_line_length - groundplane_length/2",
+            "name": "groundplane_feed_extension",
+            "value": "2.7594543144433"
+        },
+        {
+            "descr": "Centre frequency",
+            "expr": "5.775",
+            "name": "frequency_centre",
+            "value": "5.775"
+        },
+        {
+            "descr": "Feed line width",
+            "expr": "1.8825107624061",
+            "name": "feed_line_width",
+            "value": "1.8825107624061"
+        },
+        {
+            "descr": "Feed line length",
+            "expr": "7.9445169103034",
+            "name": "feed_line_length",
+            "value": "7.9445169103034"
+        },
+        {
+            "descr": "Speed of light (corrected for the model units)",
+            "expr": "299.792458",
+            "name": "c0",
+            "value": "299.792458"
+        }
+    ],
+    "version": 1
+}

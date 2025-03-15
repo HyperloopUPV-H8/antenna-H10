@@ -1,0 +1,91 @@
+2025-02-11 17:16:36   Optimizer Settings:
+
+                      Optimizer type: Trust Region Framework
+                      		Type: Local linear models on primary data
+                      .		Min trust region size (in unit cube): 0.01
+                      		Smart sensitivity updates: Legacy
+                      		Finite difference delta: 0.01
+                      		Finite difference adjustment: Moderate
+                      		Sigma (measure for globalness): 0.2
+                      			Tabu list vicinity radius: 0
+                      			Initial exploration threshold: 0
+                      		Surrogate optimization strategy: Automatic
+
+                      ---------------------------------------------------------------------------------------
+
+                      Parameters used for optimization:
+                      ---------------------------------------------------------------------------------------
+                      | name                    |          min |          max |      initial |
+                      ---------------------------------------------------------------------------------------
+                      | matching_line_length    |        6.255 |       10.426 |      8.34052 |
+                      | matching_line_width     |        0.287 |       0.4784 |     0.382723 |
+                      | patch_length            |       10.054 |       16.756 |       13.405 |
+                      | patch_width             |       13.435 |       22.392 |      17.9134 |
+                      ---------------------------------------------------------------------------------------
+
+                      Goal functionals used for optimization:
+
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -50 in range: 5.775, weighted: 0.9
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -20 in range: 5.735...5.815, weighted: 0.9
+                      1DC: 1D Results\Reference Impedance\ZRef 1(1): operate by "=" with target 50 in range: 5.735...5.815, weighted: 1.0
+2025-02-11 17:16:36   
+                      ________________________________________________________________________
+
+                      Extracted data from previously calculated system for parameters:
+
+                      	matching_line_length = 8.34052
+                      	matching_line_width = 0.382723
+                      	patch_length = 13.405
+                      	patch_width = 17.9134
+
+                      (Corresponding to run ID: 16)
+
+                      	Initial goal function value  = 9.33662 (Solver)
+                      	Best goal function value   = 9.33662 (Solver)
+                      	Last goal function value   = 9.33662 (Solver)
+2025-02-11 17:29:59   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	matching_line_length = 8.38223
+                      	matching_line_width = 0.382723
+                      	patch_length = 13.405
+                      	patch_width = 17.9134
+
+                      (Corresponding to run ID: 17)
+
+                      	Initial goal function value  = 9.33662 (Solver)
+                      	Best goal function value   = 9.33662 (Solver)
+                      	Last goal function value   = 16.0763 (Solver)
+
+                      	Solver time = 00:13:03 h
+                      	Parameter update time = 00:00:20 h
+2025-02-11 17:44:04   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2025-02-11 17:46:28   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	matching_line_length = 8.34052
+                      	matching_line_width = 0.384637
+                      	patch_length = 13.405
+                      	patch_width = 17.9134
+
+                      (Corresponding to run ID: 18)
+
+
+                      Created complete backup of the project. (2 min 23 sec)
+
+                      	Initial goal function value  = 9.33662 (Solver)
+                      	Best goal function value   = 9.25293 (Solver)
+                      	Last goal function value   = 9.25293 (Solver)
+
+                      	Solver time = 00:13:44 h
+                      	Parameter update time = 00:00:20 h
