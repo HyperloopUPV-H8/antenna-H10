@@ -1,0 +1,69 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrameReduced",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "tan_delta",
+         "type": "float",
+         "value": 0.0
+      },
+      {
+         "name": "substrate_height",
+         "type": "float",
+         "value": 0.813
+      },
+      {
+         "name": "relative_permittivity",
+         "type": "float",
+         "value": 3.38
+      },
+      {
+         "name": "patch_width",
+         "type": "float",
+         "value": 18.281584722898
+      },
+      {
+         "name": "patch_length",
+         "type": "float",
+         "value": 13.396897063512
+      },
+      {
+         "name": "metal_thickness",
+         "type": "float",
+         "value": 0.0265
+      },
+      {
+         "name": "matching_line_width",
+         "type": "float",
+         "value": 0.38272272955748
+      },
+      {
+         "name": "matching_line_length",
+         "type": "float",
+         "value": 8.340516201792
+      },
+      {
+         "name": "frequency_centre",
+         "type": "float",
+         "value": 5.775
+      },
+      {
+         "name": "feed_line_width",
+         "type": "float",
+         "value": 1.8825107624061
+      },
+      {
+         "name": "feed_line_length",
+         "type": "float",
+         "value": 7.9445169103034
+      },
+      {
+         "name": "c0",
+         "type": "float",
+         "value": 299.792458
+      }
+   ],
+   "outputVariables": []
+}

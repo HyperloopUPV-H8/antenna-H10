@@ -1,0 +1,105 @@
+2025-02-10 16:33:16   Optimizer Settings:
+
+                      Optimizer type: Trust Region Framework
+                      		Type: Local linear models on primary data
+                      .		Min trust region size (in unit cube): 0.01
+                      		Smart sensitivity updates: Legacy
+                      		Finite difference delta: 0.01
+                      		Finite difference adjustment: Moderate
+                      		Sigma (measure for globalness): 0.2
+                      			Tabu list vicinity radius: 0
+                      			Initial exploration threshold: 0
+                      		Surrogate optimization strategy: Automatic
+
+                      ---------------------------------------------------------------------------------------
+
+                      Parameters used for optimization:
+                      ---------------------------------------------------------------------------------------
+                      | name                    |          min |          max |      initial |
+                      ---------------------------------------------------------------------------------------
+                      | patch_length            |       10.066 |       16.776 |       13.421 |
+                      | patch_width             |        13.09 |       21.816 |      17.4531 |
+                      ---------------------------------------------------------------------------------------
+
+                      Goal functionals used for optimization:
+
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -50 in range: 5.775, weighted: 0.9
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -20 in range: 5.735...5.815, weighted: 0.9
+2025-02-10 16:33:16   
+                      ________________________________________________________________________
+
+                      Extracted data from previously calculated system for parameters:
+
+                      	patch_length = 13.421
+                      	patch_width = 17.4531
+
+                      (Corresponding to run ID: 3)
+
+                      	Initial goal function value  = 21.711 (Solver)
+                      	Best goal function value   = 21.711 (Solver)
+                      	Last goal function value   = 21.711 (Solver)
+2025-02-10 16:50:48   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	patch_length = 13.4881
+                      	patch_width = 17.4531
+
+                      (Corresponding to run ID: 4)
+
+                      	Initial goal function value  = 21.711 (Solver)
+                      	Best goal function value   = 21.711 (Solver)
+                      	Last goal function value   = 43.5449 (Solver)
+
+                      	Solver time = 00:17:11 h
+                      	Parameter update time = 00:00:20 h
+2025-02-10 17:04:46   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	patch_length = 13.421
+                      	patch_width = 17.5404
+
+                      (Corresponding to run ID: 5)
+
+                      	Initial goal function value  = 21.711 (Solver)
+                      	Best goal function value   = 21.711 (Solver)
+                      	Last goal function value   = 22.2767 (Solver)
+
+                      	Solver time = 00:13:38 h
+                      	Parameter update time = 00:00:20 h
+2025-02-10 17:04:48   
+                      ________________________________________________________________________
+
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 8.11439 (current anchor: 21.711)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.0850173
+
+
+2025-02-10 17:21:13   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2025-02-10 17:22:12   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	patch_length = 13.3969
+                      	patch_width = 18.1943
+
+                      (Corresponding to run ID: 6)
+
+
+                      Created complete backup of the project. (59 sec)
+
+                      	Initial goal function value  = 21.711 (Solver)
+                      	Best goal function value   = 18.7587 (Solver)
+                      	Last goal function value   = 18.7587 (Solver)
+
+                      	Solver time = 00:16:04 h
+                      	Parameter update time = 00:00:19 h
