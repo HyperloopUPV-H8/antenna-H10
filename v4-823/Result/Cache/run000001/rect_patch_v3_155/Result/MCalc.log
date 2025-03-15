@@ -1,0 +1,241 @@
+Frontend-Node:  ======================
+                Mesher selection: FPBA
+                ======================
+
+========================================================================================
+[Boundaries] - MCalc
+magnetic, open-add-space, open-add-space, open-add-space, open-add-space, open-add-space
+========================================================================================
+
+========================================
+[Mesh] Matrix calculation - NO ACIS mode
+========================================
+
+=============================
+[Mesh] Expansion: 0 0 0 0 0 0
+=============================
+
+=================================================================================
+ - hardware info
+   + cpu name                    : Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+   + sockets                     : 2
+   + cores per socket            : 6
+   + hyperthreading              : off
+   + max cpuid level             : 13
+   + max cpuid ext. level        : 8
+   + numa nodes                  : 2
+   + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+apic ids           : 0, 2, 4, 6, 8, 10, 32, 34, 36, 38, 40, 42
+apic ids (fallback): 0, 2, 4, 6, 8, 10, 32, 34, 36, 38, 40, 42
+from cpu registers: 0, 2, 4, 6, 8, 10, 32, 34, 36, 38, 40, 42
+fallback: 0, 2, 4, 6, 8, 10, 32, 34, 36, 38, 40, 42
+combined: 0, 2, 4, 6, 8, 10, 32, 34, 36, 38, 40, 42
+max id per cpu: 32
+SMT mask: 1
+Core mask: 1e
+Package mask: ffffffe0
+set results:
+  - packages: 2
+  - cores: 6
+  - smts: 1
+generate core map, new implementation
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+packages: 2
+cores   : 6
+ht units: 1
+ - active core list from affinity: 
+   + num accessible procs          : 12
+   + num logical procs             : 12
+   + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+   + sockets ids in                : 0
+   + core list                  (1): 0,1,2,3,4,5
+ - pinning rule in use           : numa 
+ - desired numa node             : 0
+ - available sockets             : 0
+ - allowed core ids              : 0,1,2,3,4,5
+ - allowed core ids (aff)        : 111111 000000 
+ - used mask (string)            : 111111 000000 
+=================================================================================
+
+=========================================================================
+Version: 2024.4 Release from 2024-04-30 (change 1266454) [Release]
+Workflow: PBA matrix coefficients
+Operation: [acis, fpba, meshfill, bg, port-path, tst, coeff, surface-imp]
+Architecture: Windows, ID: AMD64
+System Windows-64bit
+Using processor group 0/1
+Matrix calculation information:
+# of Nodes: 0
+Concurrency: 0
+Start ID: 0
+Node ID: 0
+HEX Mesh information:
+Hex mesh: global: [hxr o(0 | 0 | 0) s(32 | 60 | 32) np (no TSTs): 61440] 
+=========================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Mon Mon Feb 10 14:00:29 2025
+started: processing CAD model
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+========================================================================
+Processing CAD model (for field results)
+	[Improved internal geometry representation]
+	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
+Version: 2024.4 Release from 2024-04-30 (change 1266454)
+PBA version 2009023009
+Sub-Workflow: Facets-QQ-GEX
+Workflow updated: -
+Mon Mon Feb 10 14:00:29 2025
+========================================================================
+
+===========================================
+Finished CAD processing (for field results)
+===========================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Mon Mon Feb 10 14:00:31 2025
+Resource usage for processing CAD model:
+	Runtime                 00:00:01.00432
+	Peak Memory Usage:               24 MB
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Mon Mon Feb 10 14:00:31 2025
+started: processing CAD model
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+===========================================================
+Matrix computation (PBA)
+	[Perfect Boundary Approximation (PBA), version: legacy]
+	[GPU acceleration: off (not supported)]
+Version: 2024.4 Release from 2024-04-30 (change 1266454)
+PBA version 2009023009
+Sub-Workflow: FPBA-1x1-TST1-Facets-QQ
+Workflow updated: -
+Mon Mon Feb 10 14:00:31 2025
+===========================================================
+
+----------------------------------------------
+Used point accuracy enhancement value: 74.00%.
+----------------------------------------------
+
+------------------------------------------------------------------------------------------------
+Geometry processing log
+	PEC background is represented by CAD geometry: false
+	Background shape: added
+	Number of CAD shapes: 5
+	Number of lumps: 0
+------------------------------------------------------------------------------------------------
+=========================================
+== CST Matrix Calculation Priority Log ==
+=========================================
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Group | Shape-ID | ShapeName | Material | User-priority | 2D/3D-Geometry | Material-attributes | Shape-attributes | Feature-ID | Schemetype
+1 | 6 | </cst/Boundaries/> Low^X_Sym | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 7 | </cst/Boundaries/> Low^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 8 | </cst/Boundaries/> Low^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 9 | </cst/Boundaries/> Up^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 10 | </cst/Boundaries/> Up^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 11 | </cst/Boundaries/> Up^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+2 | 5 | component1:substrate | substrate_material | n/a | yes | normal. | solid. | n/a | FIT_TD
+3 | 1 | component1:feed_line | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
+3 | 2 | component1:ground | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
+3 | 3 | component1:matching_line | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
+3 | 4 | component1:patch | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
+=========================================
+************************************************************************************************
+General settings
+	PBA version: legacy
+------------------------------------------------------------------------------------------------
+Geometry processor: legacy
+	Geo accuracy: 74.000000
+	Watertightness check: true
+	Self intersection check: false
+	Inheritance (all): false
+	Normal dominance (all): false
+	Normal dominance (ports): false
+	Flanges hollow: true
+	One shape per flange: false
+	Multi threading: false
+		max # of threads used: 1
+		requested max # of threads: 1
+		representation: ppm
+		method: single thread
+		retry: no
+------------------------------------------------------------------------------------------------
+CAD processing settings are set to default
+------------------------------------------------------------------------------------------------
+Connectivity settings
+	Workflow selection: 0
+	Workflow version: 20170101
+	Gap detection: false
+	Gap detection version: 1
+	TST version: 1
+	QQ workflow: true
+	CoCo workflow: true
+	Legacy topology: false
+	Connectivity check: false
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+CAD Processing Version Info
+	ACIS version installed:	33.0.1
+	ACIS version used:	33.0.1
+------------------------------------------------------------------------------------------------
+Success method:	fb-single-thread-21
+************************************************************************************************
+
+-------------------------------------------------
+Geometry representation: extended-edge
+Shared memory: none
+FARM allocation scheme: BBM
+Parallelization: off
+
+----------------------
+Acceleration mode: CPU
+----------------------
+
+Port homogenization method: FARM voxels copy
+-------------------
+TST Statistics:
+E Split (0 | 0 | 0)
+E Adapt (0 | 0 | 0)
+B Split (0 | 0 | 0)
+B Adapt (0 | 0 | 0)
+-------------------
+
+------------------------------------------------------------------------------
+PBA fill limit is applied in inverse mode.
+PBA fill limit is applied on faces filled with at least 99.00% metal material.
+--------------------------------------------------------------
+detailed accuracy settings:
+--------------------------------------------------------------
+augmented fill limit:       true
+augmented fill limit value: 99.00
+automatic fill limit:       true
+early fill limit:           true
+inverse fill limit:         true
+model complexity:           0.00
+legacy 2015:                false
+fixed point accuracy:       false
+minimum point accuracy:     0
+mesh step inheritance:      false
+accuracy mode:              
+------------------------------------------------------------------------------
+
+=================================
+Finished matrix computation (PBA)
+=================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Mon Mon Feb 10 14:00:39 2025
+Resource usage for calculating matrix coefficients:
+	Runtime                          00:00:08.00052
+	Peak Memory Usage:                        79 MB
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+-------------------------------------------------------------------------------------------------------------------------------
+PBAMeshFeedback - InfoMap: 0[ms] - SBCell navigation: Using legacy edges - CornerCorrectionLinesAndWires: 0[ms] - Write: 22[ms]
+-------------------------------------------------------------------------------------------------------------------------------
+

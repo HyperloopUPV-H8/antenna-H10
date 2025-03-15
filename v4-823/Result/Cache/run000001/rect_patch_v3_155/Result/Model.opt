@@ -1,0 +1,315 @@
+2024-12-15 20:28:41   Optimizer Settings:
+
+                      Optimizer type: Trust Region Framework
+                      		Type: Local linear models on primary data
+                      .		Min trust region size (in unit cube): 0.01
+                      		Smart sensitivity updates: Legacy
+                      		Finite difference delta: 0.01
+                      		Finite difference adjustment: Moderate
+                      		Sigma (measure for globalness): 0.2
+                      			Tabu list vicinity radius: 0
+                      			Initial exploration threshold: 0
+                      		Surrogate optimization strategy: Automatic
+
+                      ---------------------------------------------------------------------------------------
+
+                      Parameters used for optimization:
+                      ---------------------------------------------------------------------------------------
+                      | name                    |          min |          max |      initial |
+                      ---------------------------------------------------------------------------------------
+                      | feed_line_length        |        5.958 |        9.931 |      7.94452 |
+                      | feed_line_width         |       1.4119 |       2.3531 |      1.88251 |
+                      | frequency_centre        |        4.331 |        7.219 |        5.775 |
+                      | matching_line_length    |        6.255 |       10.426 |      8.34052 |
+                      | matching_line_width     |        0.287 |       0.4784 |     0.382723 |
+                      | patch_length            |       10.066 |       16.776 |       13.421 |
+                      | patch_width             |        13.09 |       21.816 |      17.4531 |
+                      ---------------------------------------------------------------------------------------
+
+                      Goal functionals used for optimization:
+
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -50 in range: 5.775, weighted: 0.9
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "<" with target -20 in range: 5.735...5.815, weighted: 0.9
+                      TBPP 1D: Directivity,Phi=90.0: operate by "move max" with target 0 in range: total, weighted: 1.0
+2024-12-15 20:39:02   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-12-15 20:39:24   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 7.94452
+                      	feed_line_width = 1.88251
+                      	frequency_centre = 5.775
+                      	matching_line_length = 8.34052
+                      	matching_line_width = 0.382723
+                      	patch_length = 13.421
+                      	patch_width = 17.4531
+
+
+                      Created complete backup of the project. (22 sec)
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 38.0864 (Solver)
+
+                      	Solver time = 00:10:07 h
+                      	Parameter update time = 00:00:14 h
+2024-12-15 20:50:06   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 7.98425
+                      	feed_line_width = 1.88251
+                      	frequency_centre = 5.775
+                      	matching_line_length = 8.34052
+                      	matching_line_width = 0.382723
+                      	patch_length = 13.421
+                      	patch_width = 17.4531
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 38.1258 (Solver)
+
+                      	Solver time = 00:10:30 h
+                      	Parameter update time = 00:00:12 h
+2024-12-15 21:00:41   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 7.94452
+                      	feed_line_width = 1.89192
+                      	frequency_centre = 5.775
+                      	matching_line_length = 8.34052
+                      	matching_line_width = 0.382723
+                      	patch_length = 13.421
+                      	patch_width = 17.4531
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 38.1075 (Solver)
+
+                      	Solver time = 00:10:22 h
+                      	Parameter update time = 00:00:13 h
+2024-12-15 21:11:13   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 7.94452
+                      	feed_line_width = 1.88251
+                      	frequency_centre = 5.80388
+                      	matching_line_length = 8.34052
+                      	matching_line_width = 0.382723
+                      	patch_length = 13.421
+                      	patch_width = 17.4531
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 38.7388 (Solver)
+
+                      	Solver time = 00:10:20 h
+                      	Parameter update time = 00:00:12 h
+2024-12-15 21:21:20   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 7.94452
+                      	feed_line_width = 1.88251
+                      	frequency_centre = 5.775
+                      	matching_line_length = 8.38223
+                      	matching_line_width = 0.382723
+                      	patch_length = 13.421
+                      	patch_width = 17.4531
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 40.794 (Solver)
+
+                      	Solver time = 00:09:56 h
+                      	Parameter update time = 00:00:11 h
+2024-12-15 21:31:59   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 7.94452
+                      	feed_line_width = 1.88251
+                      	frequency_centre = 5.775
+                      	matching_line_length = 8.34052
+                      	matching_line_width = 0.384637
+                      	patch_length = 13.421
+                      	patch_width = 17.4531
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 39.8742 (Solver)
+
+                      	Solver time = 00:10:26 h
+                      	Parameter update time = 00:00:12 h
+2024-12-15 21:42:29   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 7.94452
+                      	feed_line_width = 1.88251
+                      	frequency_centre = 5.775
+                      	matching_line_length = 8.34052
+                      	matching_line_width = 0.382723
+                      	patch_length = 13.4881
+                      	patch_width = 17.4531
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 73.5059 (Solver)
+
+                      	Solver time = 00:10:18 h
+                      	Parameter update time = 00:00:11 h
+2024-12-15 21:52:25   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 7.94452
+                      	feed_line_width = 1.88251
+                      	frequency_centre = 5.775
+                      	matching_line_length = 8.34052
+                      	matching_line_width = 0.382723
+                      	patch_length = 13.421
+                      	patch_width = 17.5404
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 43.2317 (Solver)
+
+                      	Solver time = 00:09:43 h
+                      	Parameter update time = 00:00:13 h
+2024-12-15 21:52:27   
+                      ________________________________________________________________________
+
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 37.3969 (current anchor: 38.0864)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.62619
+
+
+2024-12-15 21:58:30   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 8.12364
+                      	feed_line_width = 1.52627
+                      	frequency_centre = 5.62473
+                      	matching_line_length = 7.0377
+                      	matching_line_width = 0.452902
+                      	patch_length = 13.4551
+                      	patch_width = 18.4123
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 69.7548 (Solver)
+
+                      	Solver time = 00:05:52 h
+                      	Parameter update time = 00:00:12 h
+2024-12-15 21:58:32   
+                      ________________________________________________________________________
+
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 37.9827 (current anchor: 38.0864)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.0789713
+
+
+2024-12-15 22:07:10   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 7.8425
+                      	feed_line_width = 1.9316
+                      	frequency_centre = 5.65065
+                      	matching_line_length = 8.41256
+                      	matching_line_width = 0.385013
+                      	patch_length = 13.4251
+                      	patch_width = 17.2465
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 55.2227 (Solver)
+
+                      	Solver time = 00:08:25 h
+                      	Parameter update time = 00:00:13 h
+2024-12-15 22:07:12   
+                      ________________________________________________________________________
+
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 37.9968 (current anchor: 38.0864)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.0281042
+
+
+2024-12-15 22:17:04   
+                      ________________________________________________________________________
+
+                      Optimizer detected sampling that doesn't fit to the goal definition of 0_S-Parameters\S1,1.
+                      Specified abscissa value is 5.775
+                      Value is approximated by interpolation of the nearest sampling points available.
+
+
+2024-12-15 22:17:04   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	feed_line_length = 7.91083
+                      	feed_line_width = 1.88759
+                      	frequency_centre = 5.73774
+                      	matching_line_length = 8.29228
+                      	matching_line_width = 0.384545
+                      	patch_length = 13.4288
+                      	patch_width = 17.3028
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 43.6584 (Solver)
+
+                      	Solver time = 00:09:40 h
+                      	Parameter update time = 00:00:12 h
+2024-12-15 22:18:15   
+                      ========================================================================
+
+                      Recovered data for best parameters:
+
+                      	feed_line_length = 7.94452
+                      	feed_line_width = 1.88251
+                      	frequency_centre = 5.775
+                      	matching_line_length = 8.34052
+                      	matching_line_width = 0.382723
+                      	patch_length = 13.421
+                      	patch_width = 17.4531
+
+
+                      Result data recovered from project backup.
+
+                      	Initial goal function value  = 38.0864 (Solver)
+                      	Best goal function value   = 38.0864 (Solver)
+                      	Last goal function value   = 38.0864 (Solver)
+2024-12-15 22:18:17   
+                      ________________________________________________________________________
+
+
+2024-12-15 22:18:17   	Total solver time           = 01:45:38 h (11 solver runs)
+                      	Total data recovery time    = 00:01:11 h (1 loaded)
+                      	Total parameter update time = 00:02:14 h
+                      	Total backup project time   = 00:00:22 h (1 backups)
+                      	Total optimizer time        = 01:49:36 h (12 evaluations)
+
+2024-12-15 22:18:17   
+                      ________________________________________________________________________
+
+                      No further optimization was possible. Initial parameter set is stored.
+

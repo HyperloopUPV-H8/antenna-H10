@@ -1,0 +1,115 @@
+2025-02-10 14:00:26   *** Warning ***
+
+                      This software is licensed for non-commercial use only.
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:00:28   Units settings: 
+
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:00:41   Mesh statistics:
+
+                         Hexahedral mesh type: Perfect Boundary Approximation (PBA)
+                            Version: legacy
+
+                         Parallelization type: none
+
+                         Used point accuracy enhancement value: 74.00%.
+                         Acceleration mode: CPU
+                         PBA fill limit: 99.00% (inverse)
+
+                         *** Warning ***  The matrix computation uses legacy PBA settings. These settings will become obsolete in future versions.
+
+                         *** Warning ***  To use the default PBA settings please consider pressing the "Default" button in the "Discretizer" tab of the "Special Mesh Properties" dialog box. 
+
+
+2025-02-10 14:00:41   Boundary conditions: 
+
+                        YZsymmetry: magnetic
+                        XZsymmetry: none
+                        XYsymmetry: none
+
+                        Xmin: expanded open
+                        Xmax: expanded open
+
+                        Ymin: expanded open
+                        Ymax: expanded open
+
+                        Zmin: expanded open
+                        Zmax: expanded open
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:00:41   Port: 1
+
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:00:42     Mesh time                :	13 s
+
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:00:42   The number of frequency samples has been increased to take into account all field monitors.
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:00:42   
+                      ================================================================================
+                      Frequency Domain Solver calculation cycle started
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:00:42   Solver started at: 2025-02-10 14:00:42 +0100
+
+                        Module:  Frequency Domain: S-Parameter (Win 64)
+                        Version: 2024.4 Release from 2024-04-30 (change 1266454)
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:00:42     Calculation 1 (Frequency: 5.815 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:00:43     ------------------------------- F-Calc 5.82 --------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        1      1      QTEM        234           0             62.5          ---
+                        ----------------------------------------------------------------------------
+
+2025-02-10 14:02:05     Matrix setup time        :	0 s
+                        Solver setup             :	81 s
+                        Degrees of freedom       :	280502
+
+                        Stimulation port         :	1
+                        Mode number              :	1
+                        Accuracy                 :	0
+                        Iterations               :	1
+                        Solver time              :	0 s
+
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:02:05   *** Error ***
+
+2025-02-10 14:02:05   The S-Parameter calculation failed due to a singular matrix.
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:02:06     Number of mesh cells     :	56699
+                        Degrees of freedom       :	184320
+                        Total Solver Time        :	94 s	 (= 0 h, 01 m, 34 s)
+                      ================================================================================
+
+
+
+                      ------------------------------------------------------------------------------
+2025-02-10 14:02:06     ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Matrices calc.      90524                         84185900     84090744     
+                        Solver start        12740                         84233416     84231852     
+                        Eq. system setup    119160                        84173588     84095256     
+                        Eq. system solve    1333308                       84093248     82887764     
+                        Solver run total    1337924                       84233416     82893352     
+
+                        Computer name       gamserverhp3
+                        ----------------------------------------------------------------------------
+
+
+                      ------------------------------------------------------------------------------
