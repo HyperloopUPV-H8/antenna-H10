@@ -1,0 +1,19 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 2025-02-10 19:41:57
+
+  Evaluating 'Directivity,Phi=90.0': 1.885 s
+
+  Total time: 2 s  ( = 0 h, 0 m, 2 s )
+
+Template based post-processing finished at: 2025-02-10 19:42:00
+----------------------------------------------------------------------------------------

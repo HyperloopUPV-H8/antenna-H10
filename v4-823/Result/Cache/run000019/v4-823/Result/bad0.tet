@@ -1,0 +1,16 @@
+Number of suspicious elements
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2
+
+Element dimension
+^^^^^^^^^^^^^^^^^
+3
+
+Quality measure output (0...no, 1...yes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1
+
+Element ID, element quality (if used; 0: worst, 1: best)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+34532 6.09049e-05
+17035 9.59956e-05
